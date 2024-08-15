@@ -18,7 +18,7 @@
 
 ## Overview
 
-[1. [ACL-2024] Deciphering Oracle Bone Language with Diffusion Models ](#OBSD)
+[1. [ACL-2024 Oral-Best Paper] Deciphering Oracle Bone Language with Diffusion Models ](#OBSD)
 
 [![Source_code](https://img.shields.io/badge/Code-Available-white)](https://github.com/guanhaisu/OBSD)
 
