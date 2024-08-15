@@ -44,6 +44,7 @@
 We propose HUST-OBC dataset. This dataset encompasses 77,064 images of 1,588 individual deciphered characters and 62,989 images of 9,411 undeciphered characters, with a total of 140,053 images, compiled from diverse sources.
 <img src="https://v1.ax1x.com/2024/08/15/7GMW2B.jpg" width="100%">
 
+If you wish to refer to the baseline results published here, please use the following BibTeX entries:
 ```BibTeX
 @article{wang2024open,
   title={An open dataset for oracle bone script recognition and decipherment},
@@ -63,6 +64,7 @@ We propose HUST-OBC dataset. This dataset encompasses 77,064 images of 1,588 ind
 we systematically collected ancient characters from authoritative texts and websites spanning six historical stages: Oracle Bone Characters-OBC (15th century B.C.), Bronze Inscriptions-BI (13th to 221 B.C.), Seal Script-SS (11th to 8th centuries B.C.), Spring and Autumn period Characters-SAC (770 to 476 B.C.), Warring States period Characters-WSC (475 B.C. to 221 B.C.), and Clerical Script-CS (221 B.C. to 220 A.D.). Subsequently, we constructed an extensive dataset, namely EVolution Oracle Bone Characters (EVOBC), consisting of 229,170 images representing 13,714 distinct character categories. We conducted validation and simulated deciphering on the constructed dataset, and the results demonstrate its high efficacy in aiding the study of oracle bone script. This openly accessible dataset aims to digitalize ancient Chinese scripts across multiple eras, facilitating the decipherment of oracle bone script by examining the evolution of glyph forms.
 <img src="https://v1.ax1x.com/2024/08/15/7GMVUG.jpg" width="100%">
 
+If you wish to refer to the baseline results published here, please use the following BibTeX entries:
 ```BibTeX
 @article{guan2024open,
   title={An open dataset for the evolution of oracle bone characters: EVOBC},
@@ -83,6 +85,7 @@ we systematically collected ancient characters from authoritative texts and webs
 This paper introduces a novel approach, namely Puzzle Pieces Picker (P3), to decipher these enigmatic characters through radical reconstruction. We deconstruct OBI into foundational strokes and radicals, then employ a Transformer model to reconstruct them into their modern counterparts, offering a groundbreaking solution to ancient script analysis.
 <img src="https://v1.ax1x.com/2024/08/15/7GMAyJ.png" width="100%">
 
+If you wish to refer to the baseline results published here, please use the following BibTeX entries:
 ```BibTeX
 @inproceedings{wang2024puzzle,
   title={Puzzle Pieces Picker: Deciphering Ancient Chinese Characters with Radical Reconstruction},
@@ -104,6 +107,7 @@ This paper introduces a novel approach by adopting image generation techniques, 
 languages. To validate its efficacy, extensive experiments were conducted on an oracle bone script dataset, with quantitative results demonstrating the effectiveness of OBSD.
 <img src="https://v1.ax1x.com/2024/08/15/7GMxoL.jpg" width="100%">
 
+If you wish to refer to the baseline results published here, please use the following BibTeX entries:
 ```BibTeX
 @inproceedings{guan2024deciphering,
   title={Deciphering Oracle Bone Language with Diffusion Model},
@@ -113,3 +117,7 @@ languages. To validate its efficacy, extensive experiments were conducted on an 
 }
 ```
 ***
+
+
+## Copyright
+We welcome suggestions to help us improve the Monkey. For any query, please contact Dr. Yuliang Liu: ylliu@hust.edu.cn. If you find something interesting, please also feel free to share with us through email or open an issue. Thanks!
