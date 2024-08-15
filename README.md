@@ -120,4 +120,4 @@ If you wish to refer to the baseline results published here, please use the foll
 
 
 ## Copyright
-We welcome suggestions to help us improve the Monkey. For any query, please contact Dr. Yuliang Liu: ylliu@hust.edu.cn. If you find something interesting, please also feel free to share with us through email or open an issue. Thanks!
+We welcome suggestions to help us improve the Open-Oracle. For any query, please contact Dr. Yuliang Liu: ylliu@hust.edu.cn. If you find something interesting, please also feel free to share with us through email or open an issue. Thanks!
