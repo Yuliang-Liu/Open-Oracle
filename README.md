@@ -2,7 +2,7 @@
     <img src="https://s2.loli.net/2024/03/19/JnbZmeh18VsqkxF.png" width="250" style="margin-bottom: 0.2;"/>
 <p>
 
-<h3 align="center"> With the support of big data, cloud computing, and AI, Oracle bone script research has entered a new era. As research progresses, this once obscure field is expected to unlock more secrets in the near future, providing valuable insights for deciphering other ancient scripts. This project aims to open-source Oracle-related datasets and methods.</a></h3>
+<h3 align="center"> With the support of big data and AI, Oracle bone script research has entered a new era. As research progresses, this once obscure field is expected to unlock more secrets in the near future, providing valuable insights for deciphering other ancient scripts. This project aims to open-source Oracle-related datasets and methods.</a></h3>
 <h2></h2> 
 
 <h5 align="center"> Please give us a star ⭐ for the latest update.  </h5>
