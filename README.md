@@ -7,6 +7,8 @@
 
 <h5 align="center">
 
+[![Demo](https://img.shields.io/badge/Demo-blue)](http://vlrlab-monkey.xyz:7680/index/)
+
 ## News 
 * ```2024.8.14 ``` 🚀 OBSD won the Best Paper Award of ACL 2024!.
 
