@@ -46,7 +46,7 @@
 
 <em>Guan, Haisu and Yang, Huanxin and Wang, Xinyu and Han, Shengwei and Liu, Yongge and Jin, Lianwen and Bai, Xiang and Liu, Yuliang</em>.
 
-[Paper](https://arxiv.org/pdf/2406.03019) | [Github Code](https://github.com/Pengjie-W/Puzzle-Pieces-Picker) 
+[Paper](https://arxiv.org/pdf/2406.00684) | [Github Code](https://github.com/guanhaisu/OBSD) 
 
 This paper introduces a novel approach by adopting image generation techniques, specifically through the development of Oracle Bone Script Decipher (OBSD). Utilizing a conditional diffusion-based strategy, OBSD generates vital clues for decipherment, charting a new course for AI-assisted analysis of ancient
 languages. To validate its efficacy, extensive experiments were conducted on an oracle bone script dataset, with quantitative results demonstrating the effectiveness of OBSD.
