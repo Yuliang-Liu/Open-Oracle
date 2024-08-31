@@ -107,7 +107,7 @@ If you wish to refer to the baseline results published here, please use the foll
 ***
 
 
-### <span id="HUST-OBC">📘 [ArXiv-2024] An open dataset for oracle bone script recognition and decipherment </span>
+### <span id="HUST-OBC">📘 [Scientific Data] An open dataset for oracle bone script recognition and decipherment </span>
 
 <em>Wang, Pengjie and Zhang, Kaile and Liu, Yuliang and Wan, Jinpeng and Guan, Haisu and Kuang, Zhebin and Wang, Xinyu and Jin, Lianwen and Bai, Xiang</em>.
 
