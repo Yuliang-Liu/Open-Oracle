@@ -31,7 +31,7 @@
 [![Source_code](https://img.shields.io/badge/Code-Available-white)](https://github.com/RomanticGodVAN/character-Evolution-Dataset)
 <a href="https://figshare.com/s/ce2cf55b35a2f8ecc4c6"><img src="https://img.shields.io/badge/Data-yellow"></a>
 
-[4. [ArXiv-2024] An open dataset for oracle bone script recognition and decipherment ](#HUST-OBC)
+[4. [Scientific Data 2024] An open dataset for oracle bone script recognition and decipherment ](#HUST-OBC)
 
 [![Source_code](https://img.shields.io/badge/Code-Available-white)](https://github.com/Pengjie-W/HUST-OBC)
 <a href="https://figshare.com/s/8a9c0420312d94fc01e3"><img src="https://img.shields.io/badge/Data-yellow"></a>
