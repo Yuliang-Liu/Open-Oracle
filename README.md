@@ -7,14 +7,6 @@ With the support of big data and AI, Oracle bone script research has entered a n
 
 <h5 align="center"> Please give us a star ⭐ for the latest update.  </h5>
 
-<h5 align="center">
-
-<h3 align="center">Click the image below to go to our demo website.  </h3>
-
-<h3 align="center">
-  
-[![Demo](https://v1.ax1x.com/2024/08/15/7GMUGw.jpg )](http://vlrlab-monkey.xyz:7680/index/)
-
 
 ## Overview
 
