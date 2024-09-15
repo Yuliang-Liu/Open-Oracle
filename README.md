@@ -9,7 +9,7 @@ With the support of big data and AI, Oracle bone script research has entered a n
 
 
 ## Overview
-
+### Our Projects
 [1. [ACL-2024 Oral-Best Paper] Deciphering Oracle Bone Language with Diffusion Models ](#OBSD)
 
 [![Source_code](https://img.shields.io/badge/Code-Available-white)](https://github.com/guanhaisu/OBSD)
@@ -29,10 +29,11 @@ With the support of big data and AI, Oracle bone script research has entered a n
 <a href="https://figshare.com/s/8a9c0420312d94fc01e3"><img src="https://img.shields.io/badge/Data-yellow"></a>
 [![Download Dataset](https://img.shields.io/badge/hyper.ai-pink)](https://hyper.ai/datasets/33506)
 
+### Other Projects
 
+[1. [ArXiv-2024] A Cross-Font Image Retrieval Network for Recognizing Undeciphered Oracle Bone Inscriptions ](#CFIRN)
 
-
-
+[![Source_code](https://img.shields.io/badge/ArXiv-Paper-white)](https://arxiv.org/abs/2409.06381)
 ## Projects
 
 ### <span id="OBSD">📘 [ACL-2024 Best Paper] Deciphering Oracle Bone Language with Diffusion Models </span>
@@ -115,6 +116,29 @@ If you wish to refer to the baseline results published here, please use the foll
   title={An open dataset for oracle bone script recognition and decipherment},
   author={Wang, Pengjie and Zhang, Kaile and Liu, Yuliang and Wan, Jinpeng and Guan, Haisu and Kuang, Zhebin and Wang, Xinyu and Jin, Lianwen and Bai, Xiang},
   journal={arXiv preprint arXiv:2401.15365},
+  year={2024}
+}
+```
+***
+### <span id="CFIRN"> 📘 [ArXiv-2024] A Cross-Font Image Retrieval Network for Recognizing Undeciphered Oracle Bone Inscriptions </span>
+
+<!-- *Zhicong Wu, Qifeng Su, Ke Gu, Xiaodong Shi*. -->
+
+<em>Zhicong Wu, Qifeng Su, Ke Gu, Xiaodong Shi</em>.
+
+[Paper](https://arxiv.org/pdf/2409.06381) 
+
+This paper proposes a cross-font image retrieval network (CFIRN) to assist in deciphering Oracle Bone Inscriptions (OBI) by matching undeciphered OBI characters with characters from other script forms. The approach uses a siamese network framework to extract deep features from character images across various fonts. By incorporating a multiscale feature integration (MFI) module and multiscale refinement classifier (MRC), CFIRN effectively retrieves and matches characters from three ancient scripts: Bronze Inscription (BI), Bamboo Slip Inscription (BSI), and Clerical Script (CS). Extensive experiments demonstrate the efficacy of CFIRN, advancing the recognition of undeciphered OBI characters.
+
+<a href="https://imgse.com/i/pAudgT1"><img src="https://s21.ax1x.com/2024/09/15/pAudgT1.png" alt="pAudgT1.png" border="0" /></a>
+
+If you wish to refer to the baseline results published here, please use the following BibTeX entries:
+
+```BibTeX
+@article{wu2024cross,
+  title={A Cross-Font Image Retrieval Network for Recognizing Undeciphered Oracle Bone Inscriptions},
+  author={Wu, Zhicong and Su, Qifeng and Gu, Ke and Shi, Xiaodong},
+  journal={arXiv preprint arXiv:2409.06381},
   year={2024}
 }
 ```
