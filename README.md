@@ -34,6 +34,10 @@ With the support of big data and AI, Oracle bone script research has entered a n
 [1. [ArXiv-2024] A Cross-Font Image Retrieval Network for Recognizing Undeciphered Oracle Bone Inscriptions ](#CFIRN)
 
 [![Source_code](https://img.shields.io/badge/ArXiv-Paper-white)](https://arxiv.org/abs/2409.06381)
+
+[2. [ArXiv-2024] OBI-Bench: Can LMMs Aid in Study of Ancient Script on Oracle Bones? ](#OBI-Bench)
+
+[![Source_code](https://img.shields.io/badge/ArXiv-Paper-white)](https://arxiv.org/abs/2412.01175)
 ## Projects
 
 ### <span id="OBSD">📘 [ACL-2024 Best Paper] Deciphering Oracle Bone Language with Diffusion Models </span>
@@ -144,5 +148,29 @@ If you wish to refer to the baseline results published here, please use the foll
 ```
 ***
 
+### <span id="OBI-Bench"> 📘 [ArXiv-2024] OBI-Bench: Can LMMs Aid in Study of Ancient Script on Oracle Bones? </span>
+
+<!-- *Zhicong Wu, Qifeng Su, Ke Gu, Xiaodong Shi*. -->
+
+<em>Zijian Chen, Tingzhu Chen, Wenjun Zhang, Guangtao Zhai</em>.
+
+[Paper](https://arxiv.org/abs/2412.01175) 
+
+
+The paper introduces OBI-Bench, a comprehensive benchmark designed to evaluate large multi-modal models (LMMs) on oracle bone inscription (OBI) processing tasks. These tasks—recognition, rejoining, classification, retrieval, and deciphering—demand expert-level knowledge in deciphering ancient Chinese scripts. The benchmark comprises 5,523 images spanning diverse formats and historical contexts, testing both visual and cognitive abilities. Evaluations of 23 LMMs reveal significant challenges, with advanced models like GPT-4o achieving close to untrained human-level performance in deciphering but struggling in fine-grained perception tasks. OBI-Bench aims to advance domain-specific LMMs to assist experts in the study of ancient scripts, highlighting both their current capabilities and limitations.
+
+<a href="https://imgse.com/i/pEPaQ4U"><img src="https://s21.ax1x.com/2025/01/12/pEPaQ4U.png" alt="pEPaQ4U.png" border="0" /></a>
+
+If you wish to refer to the baseline results published here, please use the following BibTeX entries:
+
+```BibTeX
+@article{chen2024obi,
+  title={OBI-Bench: Can LMMs Aid in Study of Ancient Script on Oracle Bones?},
+  author={Chen, Zijian and Chen, Tingzhu and Zhang, Wenjun and Zhai, Guangtao},
+  journal={arXiv preprint arXiv:2412.01175},
+  year={2024}
+}
+```
+***
 ## Copyright
 We welcome suggestions to help us improve the Open-Oracle. For any query, please contact Prof. Yuliang Liu: ylliu@hust.edu.cn. If you find something interesting, please also feel free to share with us through email or open an issue. Thanks!
