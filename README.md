@@ -38,6 +38,10 @@ With the support of big data and AI, Oracle bone script research has entered a n
 [2. [ArXiv-2024] OBI-Bench: Can LMMs Aid in Study of Ancient Script on Oracle Bones? ](#OBI-Bench)
 
 [![Source_code](https://img.shields.io/badge/ArXiv-Paper-white)](https://arxiv.org/abs/2412.01175)
+
+[3. [ArXiv-2024] OracleSage: Towards Unified Visual-Linguistic Understanding of Oracle Bone Scripts through Cross-Modal Knowledge Fusion ](#OracleSage)
+
+[![Source_code](https://img.shields.io/badge/ArXiv-Paper-white)](https://arxiv.org/abs/2411.17837)
 ## Projects
 
 ### <span id="OBSD">📘 [ACL-2024 Best Paper] Deciphering Oracle Bone Language with Diffusion Models </span>
@@ -168,6 +172,30 @@ If you wish to refer to the baseline results published here, please use the foll
   title={OBI-Bench: Can LMMs Aid in Study of Ancient Script on Oracle Bones?},
   author={Chen, Zijian and Chen, Tingzhu and Zhang, Wenjun and Zhai, Guangtao},
   journal={arXiv preprint arXiv:2412.01175},
+  year={2024}
+}
+```
+***
+
+### <span id="OracleSage"> 📘 [ArXiv-2024] OracleSage: Towards Unified Visual-Linguistic Understanding of Oracle Bone Scripts through Cross-Modal Knowledge Fusion </span>
+
+
+<em>Hanqi Jiang, Yi Pan, Junhao Chen, Zhengliang Liu, Yifan Zhou, Peng Shu, Yiwei Li, Huaqin Zhao, Stephen Mihm, Lewis C Howe, Tianming Liu</em>.
+
+[Paper](https://arxiv.org/abs/2412.01175) 
+
+
+The paper introduces OracleSage, an innovative framework for interpreting Oracle Bone Script (OBS), China’s earliest writing system. OBS interpretation is challenging due to its complex pictographic structures and limited expert resources. OracleSage integrates a Hierarchical Visual-Semantic Understanding module for multi-level visual feature extraction and a Graph-based Semantic Reasoning Framework for analyzing relationships among visual and semantic elements. Additionally, the authors present OracleSem, a semantically enriched dataset with comprehensive annotations of OBS characters. Experimental results show that OracleSage outperforms existing methods by combining visual recognition with semantic reasoning, bridging gaps in both fields. This work not only advances AI-based archaeology but also proposes a novel paradigm for studying ancient writing systems.
+
+<a href="https://imgse.com/i/pEPa7Ks"><img src="https://s21.ax1x.com/2025/01/12/pEPa7Ks.png" alt="pEPa7Ks.png" border="0" /></a>
+
+If you wish to refer to the baseline results published here, please use the following BibTeX entries:
+
+```BibTeX
+@article{jiang2024oraclesage,
+  title={OracleSage: Towards Unified Visual-Linguistic Understanding of Oracle Bone Scripts through Cross-Modal Knowledge Fusion},
+  author={Jiang, Hanqi and Pan, Yi and Chen, Junhao and Liu, Zhengliang and Zhou, Yifan and Shu, Peng and Li, Yiwei and Zhao, Huaqin and Mihm, Stephen and Howe, Lewis C and others},
+  journal={arXiv preprint arXiv:2411.17837},
   year={2024}
 }
 ```
