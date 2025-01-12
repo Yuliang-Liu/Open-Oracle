@@ -33,15 +33,19 @@ With the support of big data and AI, Oracle bone script research has entered a n
 
 [1. [ArXiv-2024] A Cross-Font Image Retrieval Network for Recognizing Undeciphered Oracle Bone Inscriptions ](#CFIRN)
 
-[![Source_code](https://img.shields.io/badge/ArXiv-Paper-white)](https://arxiv.org/abs/2409.06381)
+[![arXiv](https://img.shields.io/badge/arXiv-2409.06381-b31b1b.svg)](https://arxiv.org/abs/2409.06381)
+
 
 [2. [ArXiv-2024] OBI-Bench: Can LMMs Aid in Study of Ancient Script on Oracle Bones? ](#OBI-Bench)
 
-[![Source_code](https://img.shields.io/badge/ArXiv-Paper-white)](https://arxiv.org/abs/2412.01175)
+[![arXiv](https://img.shields.io/badge/arXiv-2412.01175-b31b1b.svg)](https://arxiv.org/abs/2412.01175)
+<!-- [![Source_code](https://img.shields.io/badge/ArXiv-Paper-white)](https://arxiv.org/abs/2412.01175) -->
 
 [3. [ArXiv-2024] OracleSage: Towards Unified Visual-Linguistic Understanding of Oracle Bone Scripts through Cross-Modal Knowledge Fusion ](#OracleSage)
 
-[![Source_code](https://img.shields.io/badge/ArXiv-Paper-white)](https://arxiv.org/abs/2411.17837)
+[![arXiv](https://img.shields.io/badge/arXiv-2411.17837-b31b1b.svg)](https://arxiv.org/abs/2411.17837)
+
+<!-- [![Source_code](https://img.shields.io/badge/ArXiv-Paper-white)](https://arxiv.org/abs/2411.17837) -->
 ## Projects
 
 ### <span id="OBSD">📘 [ACL-2024 Best Paper] Deciphering Oracle Bone Language with Diffusion Models </span>
