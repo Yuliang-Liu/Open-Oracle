@@ -46,6 +46,11 @@ With the support of big data and AI, Oracle bone script research has entered a n
 [![arXiv](https://img.shields.io/badge/arXiv-2411.17837-b31b1b.svg)](https://arxiv.org/abs/2411.17837)
 
 <!-- [![Source_code](https://img.shields.io/badge/ArXiv-Paper-white)](https://arxiv.org/abs/2411.17837) -->
+
+[4. [ArXiv-2025] Interpretable Oracle Bone Script Decipherment through Radical and Pictographic Analysis with LVLMs ](#PD-OBS)
+
+[![arXiv](https://img.shields.io/badge/arXiv-2508.10113-b31b1b.svg)](https://arxiv.org/abs/2508.10113)
+
 ## Projects
 
 ### <span id="OBSD">📘 [ACL-2024 Best Paper] Deciphering Oracle Bone Language with Diffusion Models </span>
@@ -201,6 +206,28 @@ If you wish to refer to the baseline results published here, please use the foll
   author={Jiang, Hanqi and Pan, Yi and Chen, Junhao and Liu, Zhengliang and Zhou, Yifan and Shu, Peng and Li, Yiwei and Zhao, Huaqin and Mihm, Stephen and Howe, Lewis C and others},
   journal={arXiv preprint arXiv:2411.17837},
   year={2024}
+}
+```
+***
+
+### <span id="PD-OBS"> 📘 [ArXiv-2025] Interpretable Oracle Bone Script Decipherment through Radical and Pictographic Analysis with LVLMs </span>
+
+<em>Kaixin Peng, Mengyang Zhao, Haiyang Yu, Teng Fu, Bin Li.</em>
+
+[Paper](https://arxiv.org/abs/2508.10113) 
+
+The paper introduces an interpretable framework for deciphering Oracle Bone Script (OBS) using Large Vision-Language Models (LVLMs). OBS decipherment is particularly challenging due to its intricate pictographic structures and the lack of comprehensive resources. The proposed method combines radical analysis and pictographic-semantic understanding to bridge the gap between OBS glyphs and their meanings. The framework integrates a progressive training strategy, guiding the model from radical recognition to pictographic analysis, followed by mutual analysis for enhanced reasoning. Additionally, the authors present the Pictographic Decipherment OBS (PD-OBS) dataset, which includes extensive annotations for training. Experimental results demonstrate that the proposed method outperforms existing approaches in both accuracy and zero-shot decipherment, providing a more interpretable and generalizable solution. This work pushes the boundaries of AI in archaeology and offers a new approach for studying ancient scripts.
+
+<a href='https://postimg.cc/yk0xsTsV' target='_blank'><img src='https://i.postimg.cc/DyMXQCNb/temp-Imagewf-G9-QM.avif' border='0' alt='temp-Imagewf-G9-QM'/></a>
+
+If you wish to refer to the baseline results published here, please use the following BibTeX entries:
+```BibTex
+@article{peng2025interpretable,
+  title={Interpretable Oracle Bone Script Decipherment through Radical and Pictographic Analysis with LVLMs},
+  author={Peng, Kaixin and Zhao, Mengyang and Yu, Haiyang and Fu, Teng and Li, Bin},
+  journal={arXiv preprint arXiv:2508.10113},
+  year={2025},
+  url={https://arxiv.org/abs/2508.10113v2}
 }
 ```
 ***
