@@ -1,235 +1,242 @@
 <p align="center">
     <img src="https://s2.loli.net/2024/03/19/JnbZmeh18VsqkxF.png" width="250" style="margin-bottom: 0.2;"/>
-<p>
+</p>
 
-<h3 align="center"> 
-With the support of big data and AI, Oracle bone script research has entered a new era. This once obscure field is poised to reveal more secrets, offering valuable insights for deciphering other ancient scripts. We aim to open-source Oracle-related datasets and methods, but our efforts alone are not enough. We welcome the community's support to further advance the decoding of Oracle bone script.
+<h1 align="center">Open-Oracle</h1>
 
-<h5 align="center"> Please give us a star ⭐ for the latest update.  </h5>
+<p align="center">
+With the support of big data and AI, oracle bone script research has entered a new era. This repository curates open datasets, benchmarks, codebases, and papers for AI-assisted oracle bone inscription recognition, retrieval, rejoining, decipherment, and interpretation.
+</p>
 
+<h5 align="center">Please give us a star ⭐ for the latest updates.</h5>
 
-## Overview
-### Our Projects
-[1. [ACL-2024 Oral-Best Paper] Deciphering Oracle Bone Language with Diffusion Models ](#OBSD)
+<p align="center">
+  <b>Last maintained:</b> 2026-06-06 &nbsp;|&nbsp;
+  <a href="PAPERS.md"><b>Comprehensive paper index</b></a>
+</p>
 
-[![Source_code](https://img.shields.io/badge/Code-Available-white)](https://github.com/guanhaisu/OBSD)
+---
 
-[2. [ICDAR-2024 Oral] Puzzle Pieces Picker: Deciphering Ancient Chinese Characters with Radical Reconstruction ](#ACCP)
+## News
 
-[![Source_code](https://img.shields.io/badge/Code-Available-white)](https://github.com/Pengjie-W/Puzzle-Pieces-Picker)
+- **2026-06**: Major maintenance update. Fixed stale paper links, refreshed venue information, added 2025--2026 papers, and created a comprehensive task-oriented bibliography in [`PAPERS.md`](PAPERS.md).
+- **2026-06**: Added recent resources such as **OBIMD**, **OracleFusion**, **V-Oracle**, **PictOBI-20k**, **OracleAgent**, **AlphaOracle**, **OBI-Survey**, and several new datasets/benchmarks.
+- **2026-06**: Added online resources and museum collections useful for oracle bone inscription research.
 
-[3. [ArXiv-2024] An open dataset for the evolution of oracle bone characters: EVOBC ](#EVOBC)
+## Contents
 
-[![Source_code](https://img.shields.io/badge/Code-Available-white)](https://github.com/RomanticGodVAN/character-Evolution-Dataset)
-<a href="https://figshare.com/s/ce2cf55b35a2f8ecc4c6"><img src="https://img.shields.io/badge/Data-yellow"></a>
+- [Maintained / Related Projects](#maintained--related-projects)
+- [Recent Community Projects](#recent-community-projects)
+- [Datasets and Benchmarks](#datasets-and-benchmarks)
+- [Paper Index](#paper-index)
+- [Online Resources](#online-resources)
+- [Selected Project Details](#selected-project-details)
+- [Contributing](#contributing)
+- [Copyright](#copyright)
 
-[4. [Scientific Data 2024] An open dataset for oracle bone script recognition and decipherment ](#HUST-OBC)
+## Maintained / Related Projects
 
-[![Source_code](https://img.shields.io/badge/Code-Available-white)](https://github.com/Pengjie-W/HUST-OBC)
-<a href="https://figshare.com/s/8a9c0420312d94fc01e3"><img src="https://img.shields.io/badge/Data-yellow"></a>
-[![Download Dataset](https://img.shields.io/badge/hyper.ai-pink)](https://hyper.ai/datasets/33506)
+| Project | Venue / Status | Main Task | Links |
+| :--- | :---: | :--- | :--- |
+| **OBSD: Deciphering Oracle Bone Language with Diffusion Models** | ACL 2024 **Best Paper** | OBS-to-modern-character decipherment with conditional diffusion | [Paper](https://aclanthology.org/2024.acl-long.831/) / [arXiv](https://arxiv.org/abs/2406.00684) / [Code](https://github.com/guanhaisu/OBSD) |
+| **Puzzle Pieces Picker (P3)** | ICDAR 2024 Oral | Radical/stroke reconstruction for ancient Chinese character decipherment | [Paper](https://arxiv.org/abs/2406.03019) / [Code](https://github.com/Pengjie-W/Puzzle-Pieces-Picker) |
+| **EVOBC** | arXiv 2024 | Multi-period Chinese character evolution dataset | [Paper](https://arxiv.org/abs/2401.12467) / [Code](https://github.com/RomanticGodVAN/character-Evolution-Dataset) / [Data](https://figshare.com/s/ce2cf55b35a2f8ecc4c6) |
+| **HUST-OBC** | Scientific Data 2024 | Large-scale oracle bone character recognition and decipherment dataset | [Paper](https://www.nature.com/articles/s41597-024-03807-x) / [arXiv](https://arxiv.org/abs/2401.15365) / [Code](https://github.com/Pengjie-W/HUST-OBC) / [Data](https://figshare.com/s/8a9c0420312d94fc01e3) |
+| **AlphaOracle** | Project | Human-workflow-inspired OBS decipherment framework | [Code](https://github.com/Yuliang-Liu/AlphaOracle) |
 
-### Other Projects
+## Recent Community Projects
 
-[1. [ArXiv-2024] A Cross-Font Image Retrieval Network for Recognizing Undeciphered Oracle Bone Inscriptions ](#CFIRN)
+| Project / Paper | Venue / Year | Main Contribution | Links |
+| :--- | :---: | :--- | :--- |
+| **Oracle Bone Inscriptions Information Processing: A Comprehensive Survey** | npj Heritage Science 2026 | Task-centric survey and resource collection | [Paper](https://www.nature.com/articles/s40494-026-02511-w) / [Repo](https://github.com/OBI-Future/OBI-Survey) |
+| **OBIMD: A Multi-modal Dataset for Contextual Interpretation of Oracle Bone Inscriptions** | Scientific Data 2026 | Pixel-aligned rubbings/facsimiles, character annotations, sentence-level readings | [Paper](https://www.nature.com/articles/s41597-026-06967-0) / [arXiv](https://arxiv.org/abs/2407.03900) / [Code](https://github.com/libang1991/OBIMD) / [HF](https://huggingface.co/datasets/KLOBIP/OBIMD) |
+| **OBI-Bench: Can LMMs Aid in Study of Ancient Script on Oracle Bones?** | ICLR 2025 Spotlight | Holistic LMM benchmark over recognition, rejoining, classification, retrieval, and deciphering | [OpenReview](https://openreview.net/forum?id=hL5jone2Oh) / [arXiv](https://arxiv.org/abs/2412.01175) / [Code](https://github.com/zijianchen98/OBI-Bench) |
+| **OracleFusion** | ICCV 2025 | Structurally constrained semantic typography for OBS decipherment | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Li_OracleFusion_Assisting_the_Decipherment_of_Oracle_Bone_Script_with_Structurally_ICCV_2025_paper.html) / [arXiv](https://arxiv.org/abs/2506.21101) / [Code](https://github.com/lcs0215/OracleFusion) |
+| **V-Oracle** | ACL 2025 | Progressive VQA-style reasoning for oracle bone decipherment | [Paper](https://aclanthology.org/2025.acl-long.986/) |
+| **PictOBI-20k** | ICASSP 2026 | LMM benchmark for pictographic visual decipherment | [IEEE](https://ieeexplore.ieee.org/document/11462601) / [arXiv](https://arxiv.org/abs/2509.05773) / [Code](https://github.com/OBI-Future/PictOBI-20k) |
+| **OracleSage** | arXiv 2024 | Visual-linguistic OBS understanding with cross-modal knowledge fusion | [Paper](https://arxiv.org/abs/2411.17837) |
+| **Interpretable OBS Decipherment with LVLMs / PD-OBS** | arXiv 2025 | Radical and pictographic analysis for interpretable decipherment | [Paper](https://arxiv.org/abs/2508.10113) / [Code](https://github.com/PKXX1943/PD-OBS) |
+| **OracleAgent** | arXiv 2025 | Multimodal reasoning agent for OBS research workflows | [Paper](https://arxiv.org/abs/2510.26114) / [Code](https://github.com/lcs0215/OralceAgent) |
+| **Oracle-P15K** | ACM MM 2025 | Dataset/model/benchmark for long-tail OBI recognition | [Paper](https://dl.acm.org/doi/10.1145/3746027.3755067) / [Code](https://github.com/OBI-Future/Oracle-P15K) |
+| **OBIFormer** | Displays 2025 | Fast attentive denoising framework for OBI images | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0141938225000964) / [Code](https://github.com/OBI-Future/OBIFormer) |
+| **A Graph-based Evolutionary Dataset for Oracle Bone Characters** | npj Heritage Science 2025 | Graph representation for oracle-to-modern character evolution | [Paper](https://www.nature.com/articles/s40494-025-01951-0) / [Code](https://github.com/BrisksHan/GBEDOBC) |
+| **A Text-Image Dual Conditional Stable Diffusion Model for OBI Decipherment** | npj Heritage Science 2025 | Dual visual-semantic conditional diffusion for decipherment | [Paper](https://www.nature.com/articles/s40494-025-02019-9) |
+| **A Cross-Font Image Retrieval Network for Recognizing Undeciphered OBI** | ICIC 2025 / arXiv 2024 | Cross-font retrieval using historical script intermediaries | [arXiv](https://arxiv.org/abs/2409.06381) |
+| **Component-Level Segmentation for OBI Decipherment** | AAAI 2025 | Component-level segmentation task/model for decipherment support | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/35030) / [Code](https://github.com/hutt94/Component-Level-OBI-Segmentation) |
+| **Explainable Oracle Bone Script Recognition via Multimodal Pictographic Reasoning** | AAAI 2026 | MLLM-based pictographic explanations for OBS recognition | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/41296) |
+| **Specializing Large Models for OBS Interpretation via Component-Grounded Multimodal Knowledge Augmentation** | arXiv 2026 | Component-grounded multimodal knowledge augmentation / Graph RAG | [arXiv](https://arxiv.org/abs/2604.06711) |
+| **Decoding Ancient Oracle Bone Script via Generative Dictionary Retrieval** | arXiv 2026 | Generative dictionary retrieval for ancient script decoding | [arXiv](https://arxiv.org/abs/2604.09668) |
 
-[![arXiv](https://img.shields.io/badge/arXiv-2409.06381-b31b1b.svg)](https://arxiv.org/abs/2409.06381)
+More papers are listed in [`PAPERS.md`](PAPERS.md).
 
+## Datasets and Benchmarks
 
-[2. [ArXiv-2024] OBI-Bench: Can LMMs Aid in Study of Ancient Script on Oracle Bones? ](#OBI-Bench)
+| Dataset / Benchmark | Task | Scale / Notes | Links |
+| :--- | :--- | :--- | :--- |
+| **HUST-OBC** | Recognition + decipherment | 140,053 images; deciphered and undeciphered character categories | [Paper](https://www.nature.com/articles/s41597-024-03807-x) / [Code](https://github.com/Pengjie-W/HUST-OBC) / [Data](https://figshare.com/s/8a9c0420312d94fc01e3) |
+| **EVOBC** | Character evolution | Multi-period evolution data across OBC, BI, SS, SAC, WSC, CS | [Paper](https://arxiv.org/abs/2401.12467) / [Code](https://github.com/RomanticGodVAN/character-Evolution-Dataset) / [Data](https://figshare.com/s/ce2cf55b35a2f8ecc4c6) |
+| **OBIMD** | Contextual interpretation | 10,077 OBI images; 93,652 annotated characters; sentence-level readings | [Paper](https://www.nature.com/articles/s41597-026-06967-0) / [Code](https://github.com/libang1991/OBIMD) / [HF](https://huggingface.co/datasets/KLOBIP/OBIMD) |
+| **OBI-Bench** | LMM benchmark | Five OBI processing tasks; 5,523 images | [OpenReview](https://openreview.net/forum?id=hL5jone2Oh) / [Code](https://github.com/zijianchen98/OBI-Bench) |
+| **PictOBI-20k** | Visual decipherment | 20k OBC-object image pairs; 15k+ multi-choice questions | [IEEE](https://ieeexplore.ieee.org/document/11462601) / [arXiv](https://arxiv.org/abs/2509.05773) / [Code](https://github.com/OBI-Future/PictOBI-20k) |
+| **Oracle-MNIST** | Benchmark classification | 30,222 grayscale oracle-character images in 10 categories | [Paper](https://www.nature.com/articles/s41597-024-02933-w) / [Code](https://github.com/wm-bupt/oracle-mnist) |
+| **Oracle-P15K** | Long-tail recognition | Long-tail OBI benchmark with synthesis-based augmentation | [Paper](https://dl.acm.org/doi/10.1145/3746027.3755067) / [Code](https://github.com/OBI-Future/Oracle-P15K) |
+| **PD-OBS** | Interpretable decipherment | Radical/pictographic annotations for LVLM training | [Paper](https://arxiv.org/abs/2508.10113) / [Code](https://github.com/PKXX1943/PD-OBS) |
+| **GEVOBC / GBEDOBC** | Evolution graph dataset | Graph-based evolutionary oracle bone character dataset | [Paper](https://www.nature.com/articles/s40494-025-01951-0) / [Code](https://github.com/BrisksHan/GBEDOBC) |
+| **OBI Rubbing Retrieval Benchmark** | Rubbing retrieval | Homologous rubbing retrieval benchmark | [Paper](https://www.nature.com/articles/s40494-025-01859-9) |
+| **OBI Rejoining / OBFI / OBID-ACR** | Fragment rejoining / bone association | Fragment-image and bone-level association benchmarks | [OBFI](https://www.nature.com/articles/s40494-025-01651-9) / [OBID-ACR](https://www.nature.com/articles/s40494-025-02282-w) |
+| **OBC306 / HWOBC / YinQiWenYuan** | Recognition / detection | Public resources from Yin Qi Wen Yuan | [Website](https://jgw.aynu.edu.cn/home/down/index.html) |
 
-[![arXiv](https://img.shields.io/badge/arXiv-2412.01175-b31b1b.svg)](https://arxiv.org/abs/2412.01175)
-<!-- [![Source_code](https://img.shields.io/badge/ArXiv-Paper-white)](https://arxiv.org/abs/2412.01175) -->
+## Paper Index
 
-[3. [ArXiv-2024] OracleSage: Towards Unified Visual-Linguistic Understanding of Oracle Bone Scripts through Cross-Modal Knowledge Fusion ](#OracleSage)
+This README highlights representative works. For a broader task-oriented bibliography, see:
 
-[![arXiv](https://img.shields.io/badge/arXiv-2411.17837-b31b1b.svg)](https://arxiv.org/abs/2411.17837)
+- 📚 **[`PAPERS.md`](PAPERS.md)**: surveys, datasets, recognition, detection, segmentation, retrieval, rejoining, restoration, generation, decipherment, LMM/agent systems, and general ancient-script processing.
+- 🔎 **Recommended companion survey repo**: [OBI-Future/OBI-Survey](https://github.com/OBI-Future/OBI-Survey).
 
-<!-- [![Source_code](https://img.shields.io/badge/ArXiv-Paper-white)](https://arxiv.org/abs/2411.17837) -->
+## Online Resources
 
-[4. [ArXiv-2025] Interpretable Oracle Bone Script Decipherment through Radical and Pictographic Analysis with LVLMs ](#PD-OBS)
+### OBI Websites and Databases
 
-[![arXiv](https://img.shields.io/badge/arXiv-2508.10113-b31b1b.svg)](https://arxiv.org/abs/2508.10113)
+| Resource | Link |
+| :--- | :--- |
+| 殷契文渊 / Yin Qi Wen Yuan | https://jgw.aynu.edu.cn/home/index.html |
+| 小学堂 / Xiao Xue Tang | https://xiaoxue.iis.sinica.edu.tw/ |
+| 国学大师 / Guo Xue Da Shi | https://www.guoxuedashi.com/ |
+| 缀玉联珠 / Zhui Yu Lian Zhu | https://www.fdgwz.org.cn/ZhuiHeLab/Home |
+| Yin Xu OBI Database | https://obid.ancientbooks.cn/ |
+| OBI AI Collaborative Platform | https://www.jgwlbq.org.cn/home |
+| Multi-function Chinese Character Database | https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/ |
+| Chinese Etymology | https://hanziyuan.net |
+| Omniglot: Oracle Bone Script | https://www.omniglot.com/chinese/jiaguwen.htm |
 
-## Projects
+### Museum Collections
 
-### <span id="OBSD">📘 [ACL-2024 Best Paper] Deciphering Oracle Bone Language with Diffusion Models </span>
+| Museum | Link |
+| :--- | :--- |
+| 故宫博物院 | https://digicol.dpm.org.cn/list?category=18&dynasty=1265 |
+| 河南博物院 | https://www.chnmus.net/ch/collection/boutique/details.html?id=7066680765915860992 |
+| 辽宁省博物馆 | https://www.lnmuseum.com.cn/#/collect/digital-culture |
+| 山东博物馆 | https://www.sdmuseum.com/col/col353161/index.html?uid=750411&pageNum=1 |
+| 陕西历史博物馆 | https://www.sxhm.com/collection.html |
+| 上海博物馆 | https://www.shanghaimuseum.net/mu/frontend/pg/lib1/antique?libTypes=LIB_TYPE_0005 |
+| 殷墟博物馆 | https://www.ayyx.com/yxgw/collection |
+| 浙江省博物馆 | https://www.zhejiangmuseum.com/cn/#/Collection/ExcellentCollection |
+| 中国国家博物馆 | https://www.chnmuseum.cn/zp/zpml/201812/t20181218_26025.shtml |
+| 重庆中国三峡博物馆 | https://www.3gmuseum.cn/#/collectorsEdition/disclosure?recNo=4028808a5e3b12de015e3b2c79340003&acTiveNo=4028808a5e3b2c79340003 |
 
-<em>Guan, Haisu and Yang, Huanxin and Wang, Xinyu and Han, Shengwei and Liu, Yongge and Jin, Lianwen and Bai, Xiang and Liu, Yuliang</em>.
+## Selected Project Details
 
-[Paper](https://arxiv.org/pdf/2406.00684) | [Github Code](https://github.com/guanhaisu/OBSD) 
+### <span id="OBSD">📘 [ACL 2024 Best Paper] Deciphering Oracle Bone Language with Diffusion Models</span>
 
-This paper introduces a novel approach by adopting image generation techniques, specifically through the development of Oracle Bone Script Decipher (OBSD). Utilizing a conditional diffusion-based strategy, OBSD generates vital clues for decipherment, charting a new course for AI-assisted analysis of ancient
-languages. To validate its efficacy, extensive experiments were conducted on an oracle bone script dataset, with quantitative results demonstrating the effectiveness of OBSD.
+<em>Haisu Guan, Huanxin Yang, Xinyu Wang, Shengwei Han, Yongge Liu, Lianwen Jin, Xiang Bai, Yuliang Liu</em>.
+
+[Paper](https://aclanthology.org/2024.acl-long.831/) | [arXiv](https://arxiv.org/abs/2406.00684) | [Github Code](https://github.com/guanhaisu/OBSD)
+
+This paper introduces **Oracle Bone Script Decipher (OBSD)**, a conditional diffusion-based strategy that generates modern-character clues for oracle bone script decipherment.
+
 <img src="https://v1.ax1x.com/2024/08/15/7GMxoL.jpg" width="100%">
 
-If you wish to refer to the baseline results published here, please use the following BibTeX entries:
 ```BibTeX
 @inproceedings{guan2024deciphering,
-  title={Deciphering Oracle Bone Language with Diffusion Model},
-  author={Guan, Haisu and Yang, Huanxin and Wang, Xinyu and Han, Shengwei and Liu, Yongge and Jin, Lianwen and Bai, Xiang and Liu, Yuliang},
-  booktitle={Proceedings of the 62th Annual Meeting of the Association for Computational Linguistics},
-  year={2024}
+  title     = {Deciphering Oracle Bone Language with Diffusion Models},
+  author    = {Guan, Haisu and Yang, Huanxin and Wang, Xinyu and Han, Shengwei and Liu, Yongge and Jin, Lianwen and Bai, Xiang and Liu, Yuliang},
+  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages     = {15554--15567},
+  year      = {2024},
+  doi       = {10.18653/v1/2024.acl-long.831}
 }
 ```
+
 ***
 
+### <span id="ACCP">📘 [ICDAR 2024 Oral] Puzzle Pieces Picker: Deciphering Ancient Chinese Characters with Radical Reconstruction</span>
 
-### <span id="ACCP">📘 [ICDAR-2024 Oral] Puzzle Pieces Picker: Deciphering Ancient Chinese Characters with Radical Reconstruction </span>
+<em>Pengjie Wang, Kaile Zhang, Xinyu Wang, Shengwei Han, Yongge Liu, Lianwen Jin, Xiang Bai, Yuliang Liu</em>.
 
-<em>Wang, Pengjie and Zhang, Kaile and Wang, Xinyu and Han, Shengwei and Liu, Yongge and Jin, Lianwen and Bai, Xiang and Liu, Yuliang</em>.
+[Paper](https://arxiv.org/abs/2406.03019) | [Github Code](https://github.com/Pengjie-W/Puzzle-Pieces-Picker)
 
-[Paper](https://arxiv.org/pdf/2406.03019) | [Github Code](https://github.com/Pengjie-W/Puzzle-Pieces-Picker) 
+Puzzle Pieces Picker (P3) deconstructs oracle bone inscriptions into strokes/radicals and reconstructs them into modern counterparts with a Transformer-based model.
 
-This paper introduces a novel approach, namely Puzzle Pieces Picker (P3), to decipher these enigmatic characters through radical reconstruction. We deconstruct OBI into foundational strokes and radicals, then employ a Transformer model to reconstruct them into their modern counterparts, offering a groundbreaking solution to ancient script analysis.
 <img src="https://v1.ax1x.com/2024/08/15/7GMAyJ.png" width="100%">
 
-If you wish to refer to the baseline results published here, please use the following BibTeX entries:
 ```BibTeX
 @inproceedings{wang2024puzzle,
-  title={Puzzle Pieces Picker: Deciphering Ancient Chinese Characters with Radical Reconstruction},
-  author={Wang, Pengjie and Zhang, Kaile and Wang, Xinyu and Han, Shengwei and Liu, Yongge and Jin, Lianwen and Bai, Xiang and Liu, Yuliang},
-  booktitle={International Conference on Document Analysis and Recognition},
-  year={2024},
-  organization={Springer}
+  title     = {Puzzle Pieces Picker: Deciphering Ancient Chinese Characters with Radical Reconstruction},
+  author    = {Wang, Pengjie and Zhang, Kaile and Wang, Xinyu and Han, Shengwei and Liu, Yongge and Jin, Lianwen and Bai, Xiang and Liu, Yuliang},
+  booktitle = {Document Analysis and Recognition -- ICDAR 2024},
+  year      = {2024},
+  publisher = {Springer},
+  doi       = {10.1007/978-3-031-70533-5_11}
 }
 ```
+
 ***
 
+### <span id="EVOBC">📘 [arXiv 2024] An Open Dataset for the Evolution of Oracle Bone Characters: EVOBC</span>
 
-### <span id="EVOBC">📘 [ArXiv-2024] An open dataset for the evolution of oracle bone characters: EVOBC </span>
+<em>Haisu Guan, Jinpeng Wan, Yuliang Liu, Pengjie Wang, Kaile Zhang, Zhebin Kuang, Xinyu Wang, Xiang Bai, Lianwen Jin</em>.
 
-<em>Guan, Haisu and Wan, Jinpeng and Wang, Pengjie and Zhang, Kaile and Kuang, Zhebin and Wang, Xinyu and Shengwei, Han and Yongge Liu and Bai, Xiang and Jin, Lianwen and Liu, Yuliang</em>.
+[Paper](https://arxiv.org/abs/2401.12467) | [Github Code](https://github.com/RomanticGodVAN/character-Evolution-Dataset) | [Data](https://figshare.com/s/ce2cf55b35a2f8ecc4c6)
 
-[Paper](https://arxiv.org/pdf/2401.12467) | [Github Code](https://github.com/RomanticGodVAN/character-Evolution-Dataset) 
+EVOBC collects character images across six historical stages: Oracle Bone Characters, Bronze Inscriptions, Seal Script, Spring and Autumn period characters, Warring States period characters, and Clerical Script.
 
-we systematically collected ancient characters from authoritative texts and websites spanning six historical stages: Oracle Bone Characters-OBC (15th century B.C.), Bronze Inscriptions-BI (13th to 221 B.C.), Seal Script-SS (11th to 8th centuries B.C.), Spring and Autumn period Characters-SAC (770 to 476 B.C.), Warring States period Characters-WSC (475 B.C. to 221 B.C.), and Clerical Script-CS (221 B.C. to 220 A.D.). Subsequently, we constructed an extensive dataset, namely EVolution Oracle Bone Characters (EVOBC), consisting of 229,170 images representing 13,714 distinct character categories. We conducted validation and simulated deciphering on the constructed dataset, and the results demonstrate its high efficacy in aiding the study of oracle bone script. This openly accessible dataset aims to digitalize ancient Chinese scripts across multiple eras, facilitating the decipherment of oracle bone script by examining the evolution of glyph forms.
 <img src="https://v1.ax1x.com/2024/08/15/7GMVUG.jpg" width="100%">
 
-If you wish to refer to the baseline results published here, please use the following BibTeX entries:
 ```BibTeX
 @article{guan2024open,
-  title={An open dataset for the evolution of oracle bone characters: EVOBC},
-  author={Guan, Haisu and Wan, Jinpeng and Wang, Pengjie and Zhang, Kaile and Kuang, Zhebin and Wang, Xinyu and Shengwei, Han and Yongge Liu and Bai, Xiang and Jin, Lianwen and Liu, Yuliang},
-  journal={arXiv preprint arXiv:2401.12467},
-  year={2024}
+  title   = {An Open Dataset for the Evolution of Oracle Bone Characters: EVOBC},
+  author  = {Guan, Haisu and Wan, Jinpeng and Liu, Yuliang and Wang, Pengjie and Zhang, Kaile and Kuang, Zhebin and Wang, Xinyu and Bai, Xiang and Jin, Lianwen},
+  journal = {arXiv preprint arXiv:2401.12467},
+  year    = {2024}
 }
 ```
+
 ***
 
+### <span id="HUST-OBC">📘 [Scientific Data 2024] An Open Dataset for Oracle Bone Character Recognition and Decipherment</span>
 
-### <span id="HUST-OBC">📘 [Scientific Data 2024] An open dataset for oracle bone script recognition and decipherment </span>
+<em>Pengjie Wang, Kaile Zhang, Xinyu Wang, Shengwei Han, Yongge Liu, Jinpeng Wan, Haisu Guan, Zhebin Kuang, Lianwen Jin, Xiang Bai, Yuliang Liu</em>.
 
-<em>Wang, Pengjie and Zhang, Kaile and Liu, Yuliang and Wan, Jinpeng and Guan, Haisu and Kuang, Zhebin and Wang, Xinyu and Jin, Lianwen and Bai, Xiang</em>.
+[Paper](https://www.nature.com/articles/s41597-024-03807-x) | [arXiv](https://arxiv.org/abs/2401.15365) | [Github Code](https://github.com/Pengjie-W/HUST-OBC) | [Data](https://figshare.com/s/8a9c0420312d94fc01e3) | [hyper.ai](https://hyper.ai/datasets/33506)
 
-[Paper](https://arxiv.org/pdf/2401.15365) | [Github Code](https://github.com/Pengjie-W/HUST-OBC) 
+HUST-OBC is a large-scale open dataset for oracle bone character recognition and decipherment, containing deciphered and undeciphered OBC images.
 
-We propose HUST-OBC dataset. This dataset encompasses 77,064 images of 1,588 individual deciphered characters and 62,989 images of 9,411 undeciphered characters, with a total of 140,053 images, compiled from diverse sources.
 <img src="https://v1.ax1x.com/2024/08/15/7GMW2B.jpg" width="100%">
 
-If you wish to refer to the baseline results published here, please use the following BibTeX entries:
 ```BibTeX
 @article{wang2024open,
-  title={An open dataset for oracle bone script recognition and decipherment},
-  author={Wang, Pengjie and Zhang, Kaile and Liu, Yuliang and Wan, Jinpeng and Guan, Haisu and Kuang, Zhebin and Wang, Xinyu and Jin, Lianwen and Bai, Xiang},
-  journal={arXiv preprint arXiv:2401.15365},
-  year={2024}
+  title   = {An Open Dataset for Oracle Bone Character Recognition and Decipherment},
+  author  = {Wang, Pengjie and Zhang, Kaile and Wang, Xinyu and Han, Shengwei and Liu, Yongge and Wan, Jinpeng and Guan, Haisu and Kuang, Zhebin and Jin, Lianwen and Bai, Xiang and Liu, Yuliang},
+  journal = {Scientific Data},
+  volume  = {11},
+  number  = {1},
+  year    = {2024},
+  doi     = {10.1038/s41597-024-03807-x}
 }
 ```
-***
-### <span id="CFIRN"> 📘 [ArXiv-2024] A Cross-Font Image Retrieval Network for Recognizing Undeciphered Oracle Bone Inscriptions </span>
 
-<!-- *Zhicong Wu, Qifeng Su, Ke Gu, Xiaodong Shi*. -->
-
-<em>Zhicong Wu, Qifeng Su, Ke Gu, Xiaodong Shi</em>.
-
-[Paper](https://arxiv.org/pdf/2409.06381) 
-
-This paper proposes a cross-font image retrieval network (CFIRN) to assist in deciphering Oracle Bone Inscriptions (OBI) by matching undeciphered OBI characters with characters from other script forms. The approach uses a siamese network framework to extract deep features from character images across various fonts. By incorporating a multiscale feature integration (MFI) module and multiscale refinement classifier (MRC), CFIRN effectively retrieves and matches characters from three ancient scripts: Bronze Inscription (BI), Bamboo Slip Inscription (BSI), and Clerical Script (CS). Extensive experiments demonstrate the efficacy of CFIRN, advancing the recognition of undeciphered OBI characters.
-
-<a href="https://imgse.com/i/pAudgT1"><img src="https://s21.ax1x.com/2024/09/15/pAudgT1.png" alt="pAudgT1.png" border="0" /></a>
-
-If you wish to refer to the baseline results published here, please use the following BibTeX entries:
-
-```BibTeX
-@article{wu2024cross,
-  title={A Cross-Font Image Retrieval Network for Recognizing Undeciphered Oracle Bone Inscriptions},
-  author={Wu, Zhicong and Su, Qifeng and Gu, Ke and Shi, Xiaodong},
-  journal={arXiv preprint arXiv:2409.06381},
-  year={2024}
-}
-```
 ***
 
-### <span id="OBI-Bench"> 📘 [ArXiv-2024] OBI-Bench: Can LMMs Aid in Study of Ancient Script on Oracle Bones? </span>
+### <span id="AlphaOracle">📘 AlphaOracle: Oracle Bone Script Decipherment via Human-Workflow-Inspired Deep Learning</span>
 
-<!-- *Zhicong Wu, Qifeng Su, Ke Gu, Xiaodong Shi*. -->
+<em>Yuliang Liu, Haisu Guan, Pengjie Wang, Xinyu Wang, Jinpeng Wan, Kaile Zhang, Handong Zheng, Xingchen Liu, Zhebin Kuang, Huanxin Yang, Bang Li, Yongge Liu, Lianwen Jin, Xiang Bai</em>.
 
-<em>Zijian Chen, Tingzhu Chen, Wenjun Zhang, Guangtao Zhai</em>.
+[Github Code](https://github.com/Yuliang-Liu/AlphaOracle)
 
-[Paper](https://arxiv.org/abs/2412.01175) 
+AlphaOracle integrates computer vision, computational linguistics, and philological validation into a multi-stage workflow for oracle bone script analysis and decipherment.
 
-
-The paper introduces OBI-Bench, a comprehensive benchmark designed to evaluate large multi-modal models (LMMs) on oracle bone inscription (OBI) processing tasks. These tasks—recognition, rejoining, classification, retrieval, and deciphering—demand expert-level knowledge in deciphering ancient Chinese scripts. The benchmark comprises 5,523 images spanning diverse formats and historical contexts, testing both visual and cognitive abilities. Evaluations of 23 LMMs reveal significant challenges, with advanced models like GPT-4o achieving close to untrained human-level performance in deciphering but struggling in fine-grained perception tasks. OBI-Bench aims to advance domain-specific LMMs to assist experts in the study of ancient scripts, highlighting both their current capabilities and limitations.
-
-<a href="https://imgse.com/i/pEPaQ4U"><img src="https://s21.ax1x.com/2025/01/12/pEPaQ4U.png" alt="pEPaQ4U.png" border="0" /></a>
-
-If you wish to refer to the baseline results published here, please use the following BibTeX entries:
-
-```BibTeX
-@article{chen2024obi,
-  title={OBI-Bench: Can LMMs Aid in Study of Ancient Script on Oracle Bones?},
-  author={Chen, Zijian and Chen, Tingzhu and Zhang, Wenjun and Zhai, Guangtao},
-  journal={arXiv preprint arXiv:2412.01175},
-  year={2024}
-}
-```
 ***
 
-### <span id="OracleSage"> 📘 [ArXiv-2024] OracleSage: Towards Unified Visual-Linguistic Understanding of Oracle Bone Scripts through Cross-Modal Knowledge Fusion </span>
+## Contributing
+
+We welcome pull requests and issues. For new papers/resources, please include:
+
+1. **Title**, **authors**, **venue/year**, and **task category**.
+2. Official paper link, DOI/arXiv/OpenReview page when available.
+3. Code/data/demo links if public.
+4. A one-line summary of the contribution.
 
 
-<em>Hanqi Jiang, Yi Pan, Junhao Chen, Zhengliang Liu, Yifan Zhou, Peng Shu, Yiwei Li, Huaqin Zhao, Stephen Mihm, Lewis C Howe, Tianming Liu</em>.
-
-[Paper](https://arxiv.org/abs/2412.01175) 
-
-
-The paper introduces OracleSage, an innovative framework for interpreting Oracle Bone Script (OBS), China’s earliest writing system. OBS interpretation is challenging due to its complex pictographic structures and limited expert resources. OracleSage integrates a Hierarchical Visual-Semantic Understanding module for multi-level visual feature extraction and a Graph-based Semantic Reasoning Framework for analyzing relationships among visual and semantic elements. Additionally, the authors present OracleSem, a semantically enriched dataset with comprehensive annotations of OBS characters. Experimental results show that OracleSage outperforms existing methods by combining visual recognition with semantic reasoning, bridging gaps in both fields. This work not only advances AI-based archaeology but also proposes a novel paradigm for studying ancient writing systems.
-
-<a href="https://imgse.com/i/pEPa7Ks"><img src="https://s21.ax1x.com/2025/01/12/pEPa7Ks.png" alt="pEPa7Ks.png" border="0" /></a>
-
-If you wish to refer to the baseline results published here, please use the following BibTeX entries:
-
-```BibTeX
-@article{jiang2024oraclesage,
-  title={OracleSage: Towards Unified Visual-Linguistic Understanding of Oracle Bone Scripts through Cross-Modal Knowledge Fusion},
-  author={Jiang, Hanqi and Pan, Yi and Chen, Junhao and Liu, Zhengliang and Zhou, Yifan and Shu, Peng and Li, Yiwei and Zhao, Huaqin and Mihm, Stephen and Howe, Lewis C and others},
-  journal={arXiv preprint arXiv:2411.17837},
-  year={2024}
-}
-```
-***
-
-### <span id="PD-OBS"> 📘 [ArXiv-2025] Interpretable Oracle Bone Script Decipherment through Radical and Pictographic Analysis with LVLMs </span>
-
-<em>Kaixin Peng, Mengyang Zhao, Haiyang Yu, Teng Fu, Bin Li.</em>
-
-[Paper](https://arxiv.org/abs/2508.10113) 
-
-The paper introduces an interpretable framework for deciphering Oracle Bone Script (OBS) using Large Vision-Language Models (LVLMs). OBS decipherment is particularly challenging due to its intricate pictographic structures and the lack of comprehensive resources. The proposed method combines radical analysis and pictographic-semantic understanding to bridge the gap between OBS glyphs and their meanings. The framework integrates a progressive training strategy, guiding the model from radical recognition to pictographic analysis, followed by mutual analysis for enhanced reasoning. Additionally, the authors present the Pictographic Decipherment OBS (PD-OBS) dataset, which includes extensive annotations for training. Experimental results demonstrate that the proposed method outperforms existing approaches in both accuracy and zero-shot decipherment, providing a more interpretable and generalizable solution. This work pushes the boundaries of AI in archaeology and offers a new approach for studying ancient scripts.
-
-<a href='https://postimg.cc/yk0xsTsV' target='_blank'><img src='https://i.postimg.cc/DyMXQCNb/temp-Imagewf-G9-QM.avif' border='0' alt='temp-Imagewf-G9-QM'/></a>
-
-If you wish to refer to the baseline results published here, please use the following BibTeX entries:
-```BibTex
-@article{peng2025interpretable,
-  title={Interpretable Oracle Bone Script Decipherment through Radical and Pictographic Analysis with LVLMs},
-  author={Peng, Kaixin and Zhao, Mengyang and Yu, Haiyang and Fu, Teng and Li, Bin},
-  journal={arXiv preprint arXiv:2508.10113},
-  year={2025},
-  url={https://arxiv.org/abs/2508.10113v2}
-}
-```
-***
 ## Copyright
-We welcome suggestions to help us improve the Open-Oracle. For any query, please contact Prof. Yuliang Liu: ylliu@hust.edu.cn. If you find something interesting, please also feel free to share with us through email or open an issue. Thanks!
+
+We welcome suggestions to help improve Open-Oracle. For any query, please contact Prof. Yuliang Liu: ylliu@hust.edu.cn. If you find something interesting, feel free to share it by email or open an issue. Thanks!
