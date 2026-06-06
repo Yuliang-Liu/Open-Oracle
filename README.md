@@ -78,7 +78,7 @@ This section lists representative recent oracle bone inscription work from all g
 
 This README highlights representative works. For a broader task-oriented bibliography, see:
 
-- 📚 **[`PAPERS.md`](PAPERS.md)**: surveys, digital resources, datasets, recognition, detection, segmentation, retrieval, rejoining, restoration, generation, decipherment, LMM and agent systems, and broader ancient-script processing.
+- 📚 **[`PAPERS.md`](PAPERS.md)**: surveys, knowledge resources, datasets, decipherment, multimodal reasoning, recognition, detection, segmentation, retrieval, rejoining, restoration, generation, and broader ancient-script processing.
 - 🔎 **Recommended companion survey repo**: [OBI-Survey](https://github.com/OBI-Future/OBI-Survey).
 
 ## Online Resources
