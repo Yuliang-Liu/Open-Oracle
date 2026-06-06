@@ -50,6 +50,7 @@
 | An Open Benchmark for Oracle Bone Rubbing Image Retrieval | npj Heritage Science 2025 | Homologous rubbing retrieval benchmark | [Paper](https://www.nature.com/articles/s40494-025-01859-9) |
 | Deep Rejoining Model and Dataset of Oracle Bone Fragment Images | npj Heritage Science 2025 | Fragment-image rejoining dataset | [Paper](https://www.nature.com/articles/s40494-025-01651-9) |
 | A Multi-modal Dataset and Method for Bone-level Association Prediction in Oracle Bone Inscriptions | npj Heritage Science 2026 | Bone-level association prediction | [Paper](https://www.nature.com/articles/s40494-025-02282-w) |
+| Chronicles-OCR: A Cross-Temporal Perception Benchmark for the Evolutionary Trajectory of Chinese Characters | arXiv 2026 | Seven-script cross-temporal VLLM OCR benchmark with 2,800 images | [arXiv](https://arxiv.org/abs/2605.11960), [Code](https://github.com/VirtualLUOUCAS/Chronicles-OCR), [HF](https://huggingface.co/datasets/VirtualLUO/Chronicles-OCR) |
 
 ## Decipherment and Interpretation
 
@@ -216,7 +217,7 @@
 | Bridging Vision, Language, and Mathematics: Pictographic Character Reconstruction with Bézier Curves | arXiv 2025 | Geometric reconstruction with Bézier curves | [arXiv](https://arxiv.org/abs/2511.00076) |
 | Enhancing Multimodal Large Language Models for Ancient Chinese Character Evolution Analysis via Glyph-Driven Fine-Tuning | arXiv 2026 | Glyph-driven MLLM fine-tuning | [arXiv](https://arxiv.org/abs/2604.11299) |
 | From Edges to Meaning: Semantic Line Sketches as a Cognitive Scaffold for Ancient Pictograph Invention | arXiv 2026 | Cognitive scaffold for pictograph invention | [arXiv](https://arxiv.org/abs/2604.12865) |
-| Chronicles-OCR: A Cross-Temporal Perception Benchmark for the Evolutionary Trajectory of Chinese Characters | arXiv 2026 | Cross-temporal VLLM OCR benchmark | [arXiv](https://arxiv.org/abs/2605.11960) |
+| Chronicles-OCR: A Cross-Temporal Perception Benchmark for the Evolutionary Trajectory of Chinese Characters | arXiv 2026 | Cross-temporal VLLM OCR benchmark across seven Chinese scripts | [arXiv](https://arxiv.org/abs/2605.11960), [Code](https://github.com/VirtualLUOUCAS/Chronicles-OCR), [HF](https://huggingface.co/datasets/VirtualLUO/Chronicles-OCR) |
 
 ---
 
