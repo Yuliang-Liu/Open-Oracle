@@ -33,7 +33,7 @@ This section lists representative recent oracle bone inscription work from all g
 
 | Year | Project or Paper | Venue and Status | Category | Links |
 | :---: | :--- | :---: | :--- | :--- |
-| 2026 | **AlphaOracle** | The Innovation, Accepted | Decipherment and interpretation | [Code](https://github.com/Yuliang-Liu/AlphaOracle) |
+| 2026 | **AlphaOracle** | The Innovation | Decipherment and interpretation | [Code](https://github.com/Yuliang-Liu/AlphaOracle) |
 | 2026 | **Oracle Bone Inscriptions Information Processing: A Comprehensive Survey** | npj Heritage Science 2026 | Survey and resources | [Paper](https://www.nature.com/articles/s40494-026-02511-w), [Repo](https://github.com/OBI-Future/OBI-Survey) |
 | 2026 | **OBIMD: A Multi-modal Dataset for Contextual Interpretation of Oracle Bone Inscriptions** | Scientific Data 2026 | Multimodal dataset | [Paper](https://www.nature.com/articles/s41597-026-06967-0), [arXiv](https://arxiv.org/abs/2407.03900), [Code](https://github.com/libang1991/OBIMD), [HF](https://huggingface.co/datasets/KLOBIP/OBIMD) |
 | 2026 | **PictOBI-20k** | ICASSP 2026 | Visual decipherment benchmark | [IEEE](https://ieeexplore.ieee.org/document/11462601), [arXiv](https://arxiv.org/abs/2509.05773), [Code](https://github.com/OBI-Future/PictOBI-20k) |
@@ -118,13 +118,13 @@ This README highlights representative works. For a broader task-oriented bibliog
 
 ## Our Projects
 
-### <span id="AlphaOracle">📘 [The Innovation Accepted] AlphaOracle: Oracle Bone Script Decipherment via Human-Workflow-Inspired Deep Learning</span>
+### <span id="AlphaOracle">📘 [The Innovation] AlphaOracle: Oracle Bone Script Decipherment via Human-Workflow-Inspired Deep Learning</span>
 
 <em>Yuliang Liu, Haisu Guan, Pengjie Wang, Xinyu Wang, Jinpeng Wan, Kaile Zhang, Handong Zheng, Xingchen Liu, Zhebin Kuang, Huanxin Yang, Bang Li, Yongge Liu, Lianwen Jin, Xiang Bai</em>.
 
 [GitHub Code](https://github.com/Yuliang-Liu/AlphaOracle)
 
-The AlphaOracle paper has been accepted by **The Innovation**. AlphaOracle integrates computer vision, computational linguistics, and philological validation into a human-workflow-inspired framework for oracle bone script analysis and decipherment.
+AlphaOracle is published in **The Innovation**. AlphaOracle integrates computer vision, computational linguistics, and philological validation into a human-workflow-inspired framework for oracle bone script analysis and decipherment.
 
 ***
 
