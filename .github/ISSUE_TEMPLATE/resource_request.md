@@ -1,5 +1,5 @@
 ---
-name: Add paper / dataset / resource
+name: Add paper, dataset, or resource
 description: Suggest a new oracle bone inscription resource for Open-Oracle
 title: "[Resource] "
 labels: [resource]
@@ -14,27 +14,27 @@ body:
   - type: input
     id: venue
     attributes:
-      label: Venue / year
+      label: Venue and year
       placeholder: e.g., ACL 2025, Scientific Data 2026, arXiv 2025
   - type: dropdown
     id: category
     attributes:
       label: Category
       options:
-        - Dataset / benchmark
-        - Recognition / classification
-        - Detection / segmentation
+        - Dataset and benchmark
+        - Recognition and classification
+        - Detection and segmentation
         - Retrieval
         - Rejoining
-        - Restoration / generation
-        - Decipherment / interpretation
-        - Survey / resource
+        - Restoration and generation
+        - Decipherment and interpretation
+        - Survey and resource
         - Other
   - type: textarea
     id: links
     attributes:
       label: Links
-      description: Official paper, DOI/arXiv/OpenReview, code, data, project page.
+      description: Official paper, DOI, arXiv, or OpenReview, code, data, project page.
       placeholder: |
         Paper:
         Code:

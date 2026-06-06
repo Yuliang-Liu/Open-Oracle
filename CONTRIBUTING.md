@@ -6,8 +6,8 @@ Thank you for helping maintain Open-Oracle.
 
 Please include the following information:
 
-1. Title, authors, venue/year, and task category.
-2. Official paper link first; add arXiv/OpenReview/DOI if available.
+1. Title, authors, venue and year, and task category.
+2. Official paper link first; add arXiv, OpenReview, or DOI if available.
 3. Code, dataset, project page, or demo links if public.
 4. A one-line summary of the contribution.
 
