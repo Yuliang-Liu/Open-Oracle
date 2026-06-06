@@ -11,7 +11,7 @@ With the support of big data and AI, oracle bone script research has entered a n
 <h5 align="center">Please give us a star ⭐ for the latest updates.</h5>
 
 <p align="center">
-  <b>Last maintained:</b> 2026-06-06 &nbsp;|&nbsp;
+  <b>Last maintained:</b> 2026-06-06<br>
   <a href="PAPERS.md"><b>Comprehensive paper index</b></a>
 </p>
 
@@ -38,6 +38,8 @@ This section lists representative recent oracle bone inscription work from all g
 | 2026 | **OBIMD: A Multi-modal Dataset for Contextual Interpretation of Oracle Bone Inscriptions** | Scientific Data 2026 | Multimodal dataset | [Paper](https://www.nature.com/articles/s41597-026-06967-0), [arXiv](https://arxiv.org/abs/2407.03900), [Code](https://github.com/libang1991/OBIMD), [HF](https://huggingface.co/datasets/KLOBIP/OBIMD) |
 | 2026 | **PictOBI-20k** | ICASSP 2026 | Visual decipherment benchmark | [IEEE](https://ieeexplore.ieee.org/document/11462601), [arXiv](https://arxiv.org/abs/2509.05773), [Code](https://github.com/OBI-Future/PictOBI-20k) |
 | 2026 | **Explainable Oracle Bone Script Recognition via Multimodal Pictographic Reasoning** | AAAI 2026 | Explainable recognition | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/41296) |
+| 2026 | **OracleDet** | npj Heritage Science 2026 | Complex-scene OBI detection | [Paper](https://www.nature.com/articles/s40494-026-02621-5), [Code](https://github.com/ZCDMW/OracleDet) |
+| 2026 | **OBI Designer** | npj Heritage Science 2026 | Artistic OBI character generation | [Paper](https://www.nature.com/articles/s40494-026-02417-7) |
 | 2026 | **Specializing Large Models for OBS Interpretation via Component-Grounded Multimodal Knowledge Augmentation** | arXiv 2026 | Knowledge-augmented interpretation | [arXiv](https://arxiv.org/abs/2604.06711) |
 | 2026 | **Decoding Ancient Oracle Bone Script via Generative Dictionary Retrieval** | arXiv 2026 | Dictionary retrieval | [arXiv](https://arxiv.org/abs/2604.09668) |
 | 2025 | **OracleFusion** | ICCV 2025 | Structurally constrained semantic typography | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Li_OracleFusion_Assisting_the_Decipherment_of_Oracle_Bone_Script_with_Structurally_ICCV_2025_paper.html), [arXiv](https://arxiv.org/abs/2506.21101), [Code](https://github.com/lcs0215/OracleFusion) |
@@ -48,6 +50,8 @@ This section lists representative recent oracle bone inscription work from all g
 | 2025 | **Oracle-P15K** | ACM MM 2025 | Long-tail recognition dataset and benchmark | [Paper](https://dl.acm.org/doi/10.1145/3746027.3755067), [Code](https://github.com/OBI-Future/Oracle-P15K) |
 | 2025 | **OBIFormer** | Displays 2025 | Denoising and restoration | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0141938225000964), [Code](https://github.com/OBI-Future/OBIFormer) |
 | 2025 | **A Graph-based Evolutionary Dataset for Oracle Bone Characters** | npj Heritage Science 2025 | Character evolution graph | [Paper](https://www.nature.com/articles/s40494-025-01951-0), [Code](https://github.com/BrisksHan/GBEDOBC) |
+| 2025 | **An Open Benchmark for Oracle Bone Rubbing Image Retrieval** | npj Heritage Science 2025 | Rubbing-image retrieval | [Paper](https://www.nature.com/articles/s40494-025-01859-9) |
+| 2025 | **Deep Rejoining Model and Dataset of Oracle Bone Fragment Images** | npj Heritage Science 2025 | Fragment rejoining | [Paper](https://www.nature.com/articles/s40494-025-01651-9) |
 | 2025 | **A Text-Image Dual Conditional Stable Diffusion Model for OBI Decipherment** | npj Heritage Science 2025 | Dual conditional diffusion | [Paper](https://www.nature.com/articles/s40494-025-02019-9) |
 | 2025 | **A Cross-Font Image Retrieval Network for Recognizing Undeciphered OBI** | ICIC 2025, arXiv 2024 | Cross-font retrieval | [arXiv](https://arxiv.org/abs/2409.06381) |
 | 2025 | **Component-Level Segmentation for OBI Decipherment** | AAAI 2025 | Component segmentation | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/35030), [Code](https://github.com/hutt94/Component-Level-OBI-Segmentation) |
@@ -71,7 +75,7 @@ This section lists representative recent oracle bone inscription work from all g
 | **PD-OBS** | Interpretable decipherment | Radical and pictographic annotations for LVLM training | [Paper](https://arxiv.org/abs/2508.10113), [Code](https://github.com/PKXX1943/PD-OBS) |
 | **GEVOBC and GBEDOBC** | Evolution graph dataset | Graph-based evolutionary oracle bone character dataset | [Paper](https://www.nature.com/articles/s40494-025-01951-0), [Code](https://github.com/BrisksHan/GBEDOBC) |
 | **OBI Rubbing Retrieval Benchmark** | Rubbing retrieval | Homologous rubbing retrieval benchmark | [Paper](https://www.nature.com/articles/s40494-025-01859-9) |
-| **OBI Rejoining, OBFI, and OBID-ACR** | Fragment rejoining and bone association | Fragment-image and bone-level association benchmarks | [OBFI](https://www.nature.com/articles/s40494-025-01651-9), [OBID-ACR](https://www.nature.com/articles/s40494-025-02282-w) |
+| **OBFI and OBID-ACR** | Fragment rejoining and bone association | Fragment-image and bone-level association benchmarks | [OBFI](https://www.nature.com/articles/s40494-025-01651-9), [OBID-ACR](https://www.nature.com/articles/s40494-025-02282-w) |
 | **OBC306, HWOBC, YinQiWenYuan** | Recognition and detection | Public resources from Yin Qi Wen Yuan | [Website](https://jgw.aynu.edu.cn/home/down/index.html) |
 
 ## Paper Index
