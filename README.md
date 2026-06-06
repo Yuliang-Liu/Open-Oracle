@@ -19,8 +19,7 @@ With the support of big data and AI, oracle bone script research has entered a n
 
 ## Contents
 
-- [Maintained Projects](#maintained-projects)
-- [Recent Community Projects](#recent-community-projects)
+- [Recent Oracle Bone Projects and Papers](#recent-oracle-bone-projects-and-papers)
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
 - [Paper Index](#paper-index)
 - [Online Resources](#online-resources)
@@ -28,40 +27,35 @@ With the support of big data and AI, oracle bone script research has entered a n
 - [Contributing](#contributing)
 - [Copyright](#copyright)
 
-## Maintained Projects
+## Recent Oracle Bone Projects and Papers
 
-| Project | Venue and Status | Main Task | Links |
-| :--- | :---: | :--- | :--- |
-| **AlphaOracle** | The Innovation, Accepted | Human-workflow-inspired OBS decipherment framework | [Code](https://github.com/Yuliang-Liu/AlphaOracle) |
-| **OBSD: Deciphering Oracle Bone Language with Diffusion Models** | ACL 2024 **Best Paper** | OBS-to-modern-character decipherment with conditional diffusion | [Paper](https://aclanthology.org/2024.acl-long.831/), [arXiv](https://arxiv.org/abs/2406.00684), [Code](https://github.com/guanhaisu/OBSD) |
-| **Puzzle Pieces Picker (P3)** | ICDAR 2024 Oral | Radical and stroke reconstruction for ancient Chinese character decipherment | [Paper](https://arxiv.org/abs/2406.03019), [Code](https://github.com/Pengjie-W/Puzzle-Pieces-Picker) |
-| **EVOBC** | arXiv 2024 | Multi-period Chinese character evolution dataset | [Paper](https://arxiv.org/abs/2401.12467), [Code](https://github.com/RomanticGodVAN/character-Evolution-Dataset), [Data](https://figshare.com/s/ce2cf55b35a2f8ecc4c6) |
-| **HUST-OBC** | Scientific Data 2024 | Large-scale oracle bone character recognition and decipherment dataset | [Paper](https://www.nature.com/articles/s41597-024-03807-x), [arXiv](https://arxiv.org/abs/2401.15365), [Code](https://github.com/Pengjie-W/HUST-OBC), [Data](https://figshare.com/s/8a9c0420312d94fc01e3) |
+This section lists representative recent oracle bone inscription work from all groups, including our own projects, ordered by year. See [`PAPERS.md`](PAPERS.md) for the more detailed task-oriented paper index.
 
-## Recent Community Projects
-
-| Project or Paper | Venue and Year | Main Contribution | Links |
-| :--- | :---: | :--- | :--- |
-| **Oracle Bone Inscriptions Information Processing: A Comprehensive Survey** | npj Heritage Science 2026 | Task-centric survey and resource collection | [Paper](https://www.nature.com/articles/s40494-026-02511-w), [Repo](https://github.com/OBI-Future/OBI-Survey) |
-| **OBIMD: A Multi-modal Dataset for Contextual Interpretation of Oracle Bone Inscriptions** | Scientific Data 2026 | Pixel-aligned rubbings and facsimiles, character annotations, sentence-level readings | [Paper](https://www.nature.com/articles/s41597-026-06967-0), [arXiv](https://arxiv.org/abs/2407.03900), [Code](https://github.com/libang1991/OBIMD), [HF](https://huggingface.co/datasets/KLOBIP/OBIMD) |
-| **OBI-Bench: Can LMMs Aid in Study of Ancient Script on Oracle Bones?** | ICLR 2025 Spotlight | Holistic LMM benchmark over recognition, rejoining, classification, retrieval, and deciphering | [OpenReview](https://openreview.net/forum?id=hL5jone2Oh), [arXiv](https://arxiv.org/abs/2412.01175), [Code](https://github.com/zijianchen98/OBI-Bench) |
-| **OracleFusion** | ICCV 2025 | Structurally constrained semantic typography for OBS decipherment | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Li_OracleFusion_Assisting_the_Decipherment_of_Oracle_Bone_Script_with_Structurally_ICCV_2025_paper.html), [arXiv](https://arxiv.org/abs/2506.21101), [Code](https://github.com/lcs0215/OracleFusion) |
-| **V-Oracle** | ACL 2025 | Progressive VQA-style reasoning for oracle bone decipherment | [Paper](https://aclanthology.org/2025.acl-long.986/) |
-| **PictOBI-20k** | ICASSP 2026 | LMM benchmark for pictographic visual decipherment | [IEEE](https://ieeexplore.ieee.org/document/11462601), [arXiv](https://arxiv.org/abs/2509.05773), [Code](https://github.com/OBI-Future/PictOBI-20k) |
-| **OracleSage** | arXiv 2024 | Visual-linguistic OBS understanding with cross-modal knowledge fusion | [Paper](https://arxiv.org/abs/2411.17837) |
-| **Interpretable OBS Decipherment with LVLMs, PD-OBS** | arXiv 2025 | Radical and pictographic analysis for interpretable decipherment | [Paper](https://arxiv.org/abs/2508.10113), [Code](https://github.com/PKXX1943/PD-OBS) |
-| **OracleAgent** | arXiv 2025 | Multimodal reasoning agent for OBS research workflows | [Paper](https://arxiv.org/abs/2510.26114), [Code](https://github.com/lcs0215/OralceAgent) |
-| **Oracle-P15K** | ACM MM 2025 | Dataset, model, and benchmark for long-tail OBI recognition | [Paper](https://dl.acm.org/doi/10.1145/3746027.3755067), [Code](https://github.com/OBI-Future/Oracle-P15K) |
-| **OBIFormer** | Displays 2025 | Fast attentive denoising framework for OBI images | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0141938225000964), [Code](https://github.com/OBI-Future/OBIFormer) |
-| **A Graph-based Evolutionary Dataset for Oracle Bone Characters** | npj Heritage Science 2025 | Graph representation for oracle-to-modern character evolution | [Paper](https://www.nature.com/articles/s40494-025-01951-0), [Code](https://github.com/BrisksHan/GBEDOBC) |
-| **A Text-Image Dual Conditional Stable Diffusion Model for OBI Decipherment** | npj Heritage Science 2025 | Dual visual-semantic conditional diffusion for decipherment | [Paper](https://www.nature.com/articles/s40494-025-02019-9) |
-| **A Cross-Font Image Retrieval Network for Recognizing Undeciphered OBI** | ICIC 2025; arXiv 2024 | Cross-font retrieval using historical script intermediaries | [arXiv](https://arxiv.org/abs/2409.06381) |
-| **Component-Level Segmentation for OBI Decipherment** | AAAI 2025 | Component-level segmentation task and model for decipherment support | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/35030), [Code](https://github.com/hutt94/Component-Level-OBI-Segmentation) |
-| **Explainable Oracle Bone Script Recognition via Multimodal Pictographic Reasoning** | AAAI 2026 | MLLM-based pictographic explanations for OBS recognition | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/41296) |
-| **Specializing Large Models for OBS Interpretation via Component-Grounded Multimodal Knowledge Augmentation** | arXiv 2026 | Component-grounded multimodal knowledge augmentation and Graph RAG | [arXiv](https://arxiv.org/abs/2604.06711) |
-| **Decoding Ancient Oracle Bone Script via Generative Dictionary Retrieval** | arXiv 2026 | Generative dictionary retrieval for ancient script decoding | [arXiv](https://arxiv.org/abs/2604.09668) |
-
-More papers are listed in [`PAPERS.md`](PAPERS.md).
+| Year | Project or Paper | Venue and Status | Category | Links |
+| :---: | :--- | :---: | :--- | :--- |
+| 2026 | **AlphaOracle** | The Innovation, Accepted | Decipherment and interpretation | [Code](https://github.com/Yuliang-Liu/AlphaOracle) |
+| 2026 | **Oracle Bone Inscriptions Information Processing: A Comprehensive Survey** | npj Heritage Science 2026 | Survey and resources | [Paper](https://www.nature.com/articles/s40494-026-02511-w), [Repo](https://github.com/OBI-Future/OBI-Survey) |
+| 2026 | **OBIMD: A Multi-modal Dataset for Contextual Interpretation of Oracle Bone Inscriptions** | Scientific Data 2026 | Multimodal dataset | [Paper](https://www.nature.com/articles/s41597-026-06967-0), [arXiv](https://arxiv.org/abs/2407.03900), [Code](https://github.com/libang1991/OBIMD), [HF](https://huggingface.co/datasets/KLOBIP/OBIMD) |
+| 2026 | **PictOBI-20k** | ICASSP 2026 | Visual decipherment benchmark | [IEEE](https://ieeexplore.ieee.org/document/11462601), [arXiv](https://arxiv.org/abs/2509.05773), [Code](https://github.com/OBI-Future/PictOBI-20k) |
+| 2026 | **Explainable Oracle Bone Script Recognition via Multimodal Pictographic Reasoning** | AAAI 2026 | Explainable recognition | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/41296) |
+| 2026 | **Specializing Large Models for OBS Interpretation via Component-Grounded Multimodal Knowledge Augmentation** | arXiv 2026 | Knowledge-augmented interpretation | [arXiv](https://arxiv.org/abs/2604.06711) |
+| 2026 | **Decoding Ancient Oracle Bone Script via Generative Dictionary Retrieval** | arXiv 2026 | Dictionary retrieval | [arXiv](https://arxiv.org/abs/2604.09668) |
+| 2025 | **OracleFusion** | ICCV 2025 | Structurally constrained semantic typography | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Li_OracleFusion_Assisting_the_Decipherment_of_Oracle_Bone_Script_with_Structurally_ICCV_2025_paper.html), [arXiv](https://arxiv.org/abs/2506.21101), [Code](https://github.com/lcs0215/OracleFusion) |
+| 2025 | **V-Oracle** | ACL 2025 | Progressive VQA-style reasoning | [Paper](https://aclanthology.org/2025.acl-long.986/) |
+| 2025 | **OBI-Bench: Can LMMs Aid in Study of Ancient Script on Oracle Bones?** | ICLR 2025 Spotlight | LMM benchmark | [OpenReview](https://openreview.net/forum?id=hL5jone2Oh), [arXiv](https://arxiv.org/abs/2412.01175), [Code](https://github.com/zijianchen98/OBI-Bench) |
+| 2025 | **OracleAgent** | arXiv 2025 | Multimodal research agent | [Paper](https://arxiv.org/abs/2510.26114), [Code](https://github.com/lcs0215/OralceAgent) |
+| 2025 | **Interpretable OBS Decipherment with LVLMs, PD-OBS** | arXiv 2025 | Interpretable decipherment | [Paper](https://arxiv.org/abs/2508.10113), [Code](https://github.com/PKXX1943/PD-OBS) |
+| 2025 | **Oracle-P15K** | ACM MM 2025 | Long-tail recognition dataset and benchmark | [Paper](https://dl.acm.org/doi/10.1145/3746027.3755067), [Code](https://github.com/OBI-Future/Oracle-P15K) |
+| 2025 | **OBIFormer** | Displays 2025 | Denoising and restoration | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0141938225000964), [Code](https://github.com/OBI-Future/OBIFormer) |
+| 2025 | **A Graph-based Evolutionary Dataset for Oracle Bone Characters** | npj Heritage Science 2025 | Character evolution graph | [Paper](https://www.nature.com/articles/s40494-025-01951-0), [Code](https://github.com/BrisksHan/GBEDOBC) |
+| 2025 | **A Text-Image Dual Conditional Stable Diffusion Model for OBI Decipherment** | npj Heritage Science 2025 | Dual conditional diffusion | [Paper](https://www.nature.com/articles/s40494-025-02019-9) |
+| 2025 | **A Cross-Font Image Retrieval Network for Recognizing Undeciphered OBI** | ICIC 2025, arXiv 2024 | Cross-font retrieval | [arXiv](https://arxiv.org/abs/2409.06381) |
+| 2025 | **Component-Level Segmentation for OBI Decipherment** | AAAI 2025 | Component segmentation | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/35030), [Code](https://github.com/hutt94/Component-Level-OBI-Segmentation) |
+| 2024 | **OBSD: Deciphering Oracle Bone Language with Diffusion Models** | ACL 2024 Best Paper | Diffusion-based decipherment | [Paper](https://aclanthology.org/2024.acl-long.831/), [arXiv](https://arxiv.org/abs/2406.00684), [Code](https://github.com/guanhaisu/OBSD) |
+| 2024 | **Puzzle Pieces Picker (P3)** | ICDAR 2024 Oral | Radical and stroke reconstruction | [Paper](https://arxiv.org/abs/2406.03019), [Code](https://github.com/Pengjie-W/Puzzle-Pieces-Picker) |
+| 2024 | **HUST-OBC** | Scientific Data 2024 | Recognition and decipherment dataset | [Paper](https://www.nature.com/articles/s41597-024-03807-x), [arXiv](https://arxiv.org/abs/2401.15365), [Code](https://github.com/Pengjie-W/HUST-OBC), [Data](https://figshare.com/s/8a9c0420312d94fc01e3) |
+| 2024 | **EVOBC** | arXiv 2024 | Multi-period character evolution dataset | [Paper](https://arxiv.org/abs/2401.12467), [Code](https://github.com/RomanticGodVAN/character-Evolution-Dataset), [Data](https://figshare.com/s/ce2cf55b35a2f8ecc4c6) |
+| 2024 | **OracleSage** | arXiv 2024 | Visual-linguistic understanding | [Paper](https://arxiv.org/abs/2411.17837) |
 
 ## Datasets and Benchmarks
 
@@ -84,7 +78,7 @@ More papers are listed in [`PAPERS.md`](PAPERS.md).
 
 This README highlights representative works. For a broader task-oriented bibliography, see:
 
-- 📚 **[`PAPERS.md`](PAPERS.md)**: surveys, datasets, recognition, detection, segmentation, retrieval, rejoining, restoration, generation, decipherment, LMM and agent systems, and general ancient-script processing.
+- 📚 **[`PAPERS.md`](PAPERS.md)**: surveys, digital resources, datasets, recognition, detection, segmentation, retrieval, rejoining, restoration, generation, decipherment, LMM and agent systems, and broader ancient-script processing.
 - 🔎 **Recommended companion survey repo**: [OBI-Survey](https://github.com/OBI-Future/OBI-Survey).
 
 ## Online Resources
