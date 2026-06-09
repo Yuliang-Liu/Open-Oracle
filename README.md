@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://s2.loli.net/2024/03/19/JnbZmeh18VsqkxF.png" width="250" style="margin-bottom: 0.2;">
+    <img src="https://s41.ax1x.com/2026/06/08/pmnGSyj.png" width="250" style="margin-bottom: 0.2;">
 </p>
 
 <h1 align="center">Open-Oracle</h1>
