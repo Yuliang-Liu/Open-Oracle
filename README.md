@@ -150,7 +150,7 @@ AlphaOracle is published in **The Innovation**. AlphaOracle integrates computer 
 
 This paper introduces **ORACLE-PRIME**, a multi-task multimodal reasoning framework for oracle bone character interpretation. It integrates glyph perception, structural periodization, and evolutionary reasoning to generate philologically grounded reasoning chains.
 
-<img src="https://ibb.co/TqtyVG5d" width="100%">
+<img src="https://i.ibb.co/3YcKDbHQ/introduction.png" width="100%">
 
 ```BibTeX
 @article{wan2026oracleprime,
