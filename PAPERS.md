@@ -1,6 +1,6 @@
 # Open-Oracle Paper Index
 
-> Last updated: 2026-06-13. This file is a task-oriented bibliography for AI-assisted oracle bone inscription (OBI) and oracle bone script (OBS) processing. Rows are ordered by first public year within each section when a year is available. PRs are welcome.
+> Last updated: 2026-07-02. This file is a task-oriented bibliography for AI-assisted oracle bone inscription (OBI) and oracle bone script (OBS) processing. Rows are ordered by first public year within each section when a year is available. PRs are welcome.
 
 ## Contents
 
@@ -80,6 +80,8 @@
 | V-Oracle: Making Progressive Reasoning in Deciphering Oracle Bones for You and Me | ACL 2025 | Progressive VQA-style reasoning | [Paper](https://aclanthology.org/2025.acl-long.986/) |
 | OracleAgent: A Multimodal Reasoning Agent for Oracle Bone Script Research | arXiv 2025 | Agentic workflow for OBS research | [arXiv](https://arxiv.org/abs/2510.26114), [Code](https://github.com/lcs0215/OralceAgent) |
 | Specializing Large Models for Oracle Bone Script Interpretation via Component-Grounded Multimodal Knowledge Augmentation | arXiv 2026 | Component-grounded multimodal RAG with OB-Radix | [arXiv](https://arxiv.org/abs/2604.06711), [OpenReview](https://openreview.net/forum?id=hCVGAnQ7eE) |
+| OracleAnalyser: Analysing Implicit Semantics of Oracle Bone Scripts through MLLMs with Post-training | arXiv 2026 | Post-trained MLLM framework with reasoning and preference datasets for oracle-bone analysis | [arXiv](https://arxiv.org/abs/2606.25906) |
+| Beyond Single Character: Evaluating MLLMs for Sentence-Level Oracle Bone Inscription Understanding | arXiv 2026 | S-OBI sentence-level benchmark with semantic matching, slot extraction, and contextual reasoning | [arXiv](https://arxiv.org/abs/2606.31169) |
 | Can Neural Networks Learn the Pictographic Nature of Oracle Bone Script? | SSRN 2026 | Pictographic nature and neural-network analysis | [Preprint](https://doi.org/10.2139/ssrn.6271072) |
 | Explainable Oracle Bone Script Recognition via Multimodal Pictographic Reasoning | AAAI 2026 | Explainable MLLM recognition and interpretation | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/41296) |
 
@@ -126,6 +128,8 @@
 | Glyph Graph Isomorphism Network for Structure Recognition of Oracle Bone Inscription | Expert Systems with Applications 2026 | Glyph-graph structure recognition | [Paper](https://doi.org/10.1016/j.eswa.2025.129519) |
 | Prism-OBI: A Novel Framework for Oracle Bone Inscription Recognition via Visual Perception and Feature Decoupling | npj Heritage Science 2026 | Visual perception and feature decoupling | [Paper](https://www.nature.com/articles/s40494-026-02493-9) |
 | Leveraging Progressive Domain Adaptation for Unsupervised Cross-domain Oracle Bone Inscription Recognition | npj Heritage Science 2026 | Progressive domain adaptation | [Paper](https://www.nature.com/articles/s40494-026-02690-6) |
+| Enhancing Oracle Bone Inscription Recognition via Multi-Scale Layer Attention | arXiv 2026 | Multi-scale and cross-layer feature interaction for robust OBI recognition | [arXiv](https://arxiv.org/abs/2607.00057) |
+| OracleNet: a Few-shot Multi-scale Deep Learning Framework for Calibrated Authentication of Oracle Bone Artefacts | npj Heritage Science 2026 | Few-shot artefact authentication with calibration-aware confidence estimation | [Paper](https://www.nature.com/articles/s40494-026-02747-6) |
 | ROOTS: Recognizing Oracle Bone Inscriptions via an Organized Tree Structure | Preprint 2026 | Organized tree structure for recognition | [Preprint](https://doi.org/10.21203/rs.3.rs-9733608/v1) |
 | Detecting Unknown and Classifying Known Oracle Bone Characters via Novel Data Augmentation | npj Heritage Science 2026 | Open-world recognition with OOD detection | [Paper](https://www.nature.com/articles/s40494-026-02678-2) |
 
@@ -157,6 +161,7 @@
 | OBIFlo-SAM: Multi-task Semantic Recognition and Segmentation of Oracle Bone Inscription | npj Heritage Science 2025 | Multi-task semantic recognition and segmentation | [Paper](https://www.nature.com/articles/s40494-025-02157-0) |
 | FDW-YOLO: An Improved YOLOv12 for Oracle Bone Inscriptions Detection | ICONIP 2025 and 2026 | YOLOv12 detection | [Paper](https://doi.org/10.1007/978-981-95-4378-6_18) |
 | OBDC-Unet: A U-Shaped Network Leveraging Wavelet Dynamics and Multi-Scale Receptive Fields for Oracle Bone Drill Chisel Segmentation | npj Heritage Science 2026 | Drill-chisel segmentation | [Paper](https://www.nature.com/articles/s40494-026-02600-w) |
+| Oracle bone inscription detection model with frequency-domain attention fusion and multi-scale optimization | npj Heritage Science 2026 | Frequency-domain attention fusion and scale-aware optimization for crack-distorted detection | [Paper](https://www.nature.com/articles/s40494-026-02751-w) |
 | OracleDet: Structure-guided and Spatial-frequency Aware Detection of Oracle Bone Inscriptions in Complex Heritage Scenes | npj Heritage Science 2026 | Structure-aware and spatial-frequency-aware detection | [Paper](https://www.nature.com/articles/s40494-026-02621-5), [Code](https://github.com/ZCDMW/OracleDet) |
 
 ## Retrieval and Matching

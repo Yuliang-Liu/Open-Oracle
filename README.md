@@ -11,7 +11,7 @@ With the support of big data and AI, oracle bone script research has entered a n
 <h5 align="center">Please give us a star ⭐ for the latest updates.</h5>
 
 <p align="center">
-  <b>Last maintained:</b> 2026-06-13<br>
+  <b>Last maintained:</b> 2026-07-02<br>
   <a href="PAPERS.md"><b>Comprehensive paper index</b></a>
 </p>
 
@@ -38,6 +38,10 @@ This section lists representative recent oracle bone inscription work from all g
 | 2026 | **OBIMD: A Multi-modal Dataset for Contextual Interpretation of Oracle Bone Inscriptions** | Scientific Data 2026 | Multimodal dataset | [Paper](https://www.nature.com/articles/s41597-026-06967-0), [arXiv](https://arxiv.org/abs/2407.03900), [Code](https://github.com/libang1991/OBIMD), [HF](https://huggingface.co/datasets/KLOBIP/OBIMD) |
 | 2026 | **PictOBI-20k** | ICASSP 2026 | Visual decipherment benchmark | [IEEE](https://ieeexplore.ieee.org/document/11462601), [arXiv](https://arxiv.org/abs/2509.05773), [Code](https://github.com/OBI-Future/PictOBI-20k) |
 | 2026 | **Chronicles-OCR** | arXiv 2026 | Cross-temporal OCR benchmark | [arXiv](https://arxiv.org/abs/2605.11960), [Code](https://github.com/VirtualLUOUCAS/Chronicles-OCR), [HF](https://huggingface.co/datasets/VirtualLUO/Chronicles-OCR) |
+| 2026 | **Beyond Single Character: Evaluating MLLMs for Sentence-Level Oracle Bone Inscription Understanding** | arXiv 2026 | Sentence-level OBI benchmark | [arXiv](https://arxiv.org/abs/2606.31169) |
+| 2026 | **Enhancing Oracle Bone Inscription Recognition via Multi-Scale Layer Attention** | arXiv 2026 | Recognition | [arXiv](https://arxiv.org/abs/2607.00057) |
+| 2026 | **OracleAnalyser** | arXiv 2026 | MLLM-based oracle-bone analysis | [arXiv](https://arxiv.org/abs/2606.25906) |
+| 2026 | **Oracle bone inscription detection model with frequency-domain attention fusion and multi-scale optimization** | npj Heritage Science 2026 | Detection | [Paper](https://www.nature.com/articles/s40494-026-02751-w) |
 | 2026 | **Explainable Oracle Bone Script Recognition via Multimodal Pictographic Reasoning** | AAAI 2026 | Explainable recognition | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/41296) |
 | 2026 | **OracleDet** | npj Heritage Science 2026 | Complex-scene OBI detection | [Paper](https://www.nature.com/articles/s40494-026-02621-5), [Code](https://github.com/ZCDMW/OracleDet) |
 | 2026 | **OBI Designer** | npj Heritage Science 2026 | Artistic OBI character generation | [Paper](https://www.nature.com/articles/s40494-026-02417-7) |
@@ -72,6 +76,7 @@ This section lists representative recent oracle bone inscription work from all g
 | **OBI-Bench** | LMM benchmark | Five OBI processing tasks; 5,523 images | [OpenReview](https://openreview.net/forum?id=hL5jone2Oh), [Code](https://github.com/zijianchen98/OBI-Bench) |
 | **PictOBI-20k** | Visual decipherment | 20k OBC-object image pairs; 15k+ multi-choice questions | [IEEE](https://ieeexplore.ieee.org/document/11462601), [arXiv](https://arxiv.org/abs/2509.05773), [Code](https://github.com/OBI-Future/PictOBI-20k) |
 | **Chronicles-OCR** | Cross-temporal OCR | 2,800 balanced images across the Seven Chinese Scripts, including oracle bone script | [arXiv](https://arxiv.org/abs/2605.11960), [Code](https://github.com/VirtualLUOUCAS/Chronicles-OCR), [HF](https://huggingface.co/datasets/VirtualLUO/Chronicles-OCR) |
+| **S-OBI** | Sentence-level OBI understanding | 95 standardized sentence-level OBI instances and 695 QA pairs for semantic matching, slot extraction, and contextual reasoning | [arXiv](https://arxiv.org/abs/2606.31169) |
 | **Oracle-MNIST** | Benchmark classification | 30,222 grayscale oracle-character images in 10 categories | [Paper](https://www.nature.com/articles/s41597-024-02933-w), [Code](https://github.com/wm-bupt/oracle-mnist) |
 | **Oracle-P15K** | Long-tail recognition | Long-tail OBI benchmark with synthesis-based augmentation | [Paper](https://dl.acm.org/doi/10.1145/3746027.3755067), [Code](https://github.com/OBI-Future/Oracle-P15K) |
 | **PD-OBS** | Interpretable decipherment | Radical and pictographic annotations for LVLM training | [Paper](https://arxiv.org/abs/2508.10113), [Code](https://github.com/PKXX1943/PD-OBS) |
