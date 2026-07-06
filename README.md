@@ -147,30 +147,6 @@ AlphaOracle is published in **The Innovation**. AlphaOracle integrates computer 
 
 ***
 
-### <span id="OraclePrime">📘 [SCIENTIA SINICA Informationis 2026] A Multi-task Multimodal Reasoning Framework for Oracle Bone Character Interpretation</span>
-
-<em>Jinpeng Wan, Yuliang Liu, Xiang Bai</em>.
-
-[Paper](http://engine.scichina.com/doi/10.1360/SSI-2025-0551) | [GitHub Code](https://github.com/RomanticGodVAN/OraclePrime.git) | [Data](https://drive.google.com/drive/folders/1ApeqdOZH_l_Dl3WZn1F_GGPcLCxe630m?usp=drive_link)
-
-This paper introduces **ORACLE-PRIME**, a multi-task multimodal reasoning framework for oracle bone character interpretation. It integrates glyph perception, structural periodization, and evolutionary reasoning to generate philologically grounded reasoning chains.
-
-<img src="https://i.ibb.co/wZ1dRpQt/introduction.png" width="100%">
-
-```BibTeX
-@article{wan2026oracleprime,
-  title   = {A multi-task multimodal reasoning framework for Oracle Bone character interpretation},
-  author  = {Wan, Jinpeng and Liu, Yuliang and Bai, Xiang},
-  journal = {SCIENTIA SINICA Informationis},
-  year    = {2026},
-  pages   = {-},
-  url     = {http://www.sciengine.com/publisher/Science China Press/journal/SCIENTIA SINICA Informationis///10.1360/SSI-2025-0551},
-  doi     = {10.1360/SSI-2025-0551}
-}
-```
-
-***
-
 ### <span id="OBSD">📘 [ACL 2024 Best Paper] Deciphering Oracle Bone Language with Diffusion Models</span>
 
 <em>Haisu Guan, Huanxin Yang, Xinyu Wang, Shengwei Han, Yongge Liu, Lianwen Jin, Xiang Bai, Yuliang Liu</em>.
@@ -212,6 +188,30 @@ Puzzle Pieces Picker (P3) deconstructs oracle bone inscriptions into strokes and
   year      = {2024},
   publisher = {Springer},
   doi       = {10.1007/978-3-031-70533-5_11}
+}
+```
+
+***
+
+### <span id="OraclePrime">📘 [SCIENTIA SINICA Informationis 2026] A Multi-task Multimodal Reasoning Framework for Oracle Bone Character Interpretation</span>
+
+<em>Jinpeng Wan, Yuliang Liu, Xiang Bai</em>.
+
+[Paper](http://engine.scichina.com/doi/10.1360/SSI-2025-0551) | [GitHub Code](https://github.com/RomanticGodVAN/OraclePrime.git) | [Data](https://drive.google.com/drive/folders/1ApeqdOZH_l_Dl3WZn1F_GGPcLCxe630m?usp=drive_link)
+
+This paper introduces **ORACLE-PRIME**, a multi-task multimodal reasoning framework for oracle bone character interpretation. It integrates glyph perception, structural periodization, and evolutionary reasoning to generate philologically grounded reasoning chains.
+
+<img src="https://i.ibb.co/wZ1dRpQt/introduction.png" width="100%">
+
+```BibTeX
+@article{wan2026oracleprime,
+  title   = {A multi-task multimodal reasoning framework for Oracle Bone character interpretation},
+  author  = {Wan, Jinpeng and Liu, Yuliang and Bai, Xiang},
+  journal = {SCIENTIA SINICA Informationis},
+  year    = {2026},
+  pages   = {-},
+  url     = {http://www.sciengine.com/publisher/Science China Press/journal/SCIENTIA SINICA Informationis///10.1360/SSI-2025-0551},
+  doi     = {10.1360/SSI-2025-0551}
 }
 ```
 
