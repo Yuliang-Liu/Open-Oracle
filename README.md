@@ -11,7 +11,7 @@ With the support of big data and AI, oracle bone script research has entered a n
 <h5 align="center">Please give us a star ⭐ for the latest updates.</h5>
 
 <p align="center">
-  <b>Last maintained:</b> 2026-07-02<br>
+  <b>Last maintained:</b> 2026-07-28<br>
   <a href="PAPERS.md"><b>Comprehensive paper index</b></a>
 </p>
 
@@ -33,7 +33,13 @@ This section lists representative recent oracle bone inscription work from all g
 
 | Year | Project or Paper | Venue and Status | Category | Links |
 | :---: | :--- | :---: | :--- | :--- |
-| 2026 | **AlphaOracle** | The Innovation | Decipherment and interpretation | [Paper](https://www.sciencedirect.com/science/article/pii/S2666675826002092), [Code](https://github.com/Yuliang-Liu/AlphaOracle) |
+| 2026 | **AlphaOracle** | The Innovation | Decipherment and interpretation | [Paper](https://www.sciencedirect.com/science/article/pii/S2666675826002092), [arXiv](https://arxiv.org/abs/2607.17849), [Code](https://github.com/Yuliang-Liu/AlphaOracle) |
+| 2026 | **Structure–semantic dual-alignment benchmarking of LLM capability on ancient OBI** | npj Heritage Science 2026 | Benchmark and LLM evaluation | [Paper](https://www.nature.com/articles/s40494-026-02770-7) |
+| 2026 | **FaSDiNet** | Applied Sciences 2026 | Fragment rejoining | [Paper](https://doi.org/10.3390/app16147236) |
+| 2026 | **Evidence-Grounded Oracle Bone Script Understanding** | LNCS 2026 | OBB benchmark and OBS-PRTF framework | [Paper](https://doi.org/10.1007/978-981-92-3510-0_20) |
+| 2026 | **SGD-Det** | Multimedia Systems 2026 | Degraded-rubbing detection | [Paper](https://doi.org/10.1007/s00530-026-02466-9) |
+| 2026 | **MSR-Net** | npj Heritage Science 2026 | Rubbing denoising and restoration | [Paper](https://www.nature.com/articles/s40494-026-02719-w) |
+| 2026 | **Ancient OBI detection and translation based on depthwise-conv dual-cascade attention YOLOv12** | Array 2026 | Detection and translation | [Paper](https://doi.org/10.1016/j.array.2026.101009) |
 | 2026 | **Oracle Bone Inscriptions Information Processing: A Comprehensive Survey** | npj Heritage Science 2026 | Survey and resources | [Paper](https://www.nature.com/articles/s40494-026-02511-w), [Repo](https://github.com/OBI-Future/OBI-Survey) |
 | 2026 | **OBIMD: A Multi-modal Dataset for Contextual Interpretation of Oracle Bone Inscriptions** | Scientific Data 2026 | Multimodal dataset | [Paper](https://www.nature.com/articles/s41597-026-06967-0), [arXiv](https://arxiv.org/abs/2407.03900), [Code](https://github.com/libang1991/OBIMD), [HF](https://huggingface.co/datasets/KLOBIP/OBIMD) |
 | 2026 | **PictOBI-20k** | ICASSP 2026 | Visual decipherment benchmark | [IEEE](https://ieeexplore.ieee.org/document/11462601), [arXiv](https://arxiv.org/abs/2509.05773), [Code](https://github.com/OBI-Future/PictOBI-20k) |
@@ -77,6 +83,10 @@ This section lists representative recent oracle bone inscription work from all g
 | **PictOBI-20k** | Visual decipherment | 20k OBC-object image pairs; 15k+ multi-choice questions | [IEEE](https://ieeexplore.ieee.org/document/11462601), [arXiv](https://arxiv.org/abs/2509.05773), [Code](https://github.com/OBI-Future/PictOBI-20k) |
 | **Chronicles-OCR** | Cross-temporal OCR | 2,800 balanced images across the Seven Chinese Scripts, including oracle bone script | [arXiv](https://arxiv.org/abs/2605.11960), [Code](https://github.com/VirtualLUOUCAS/Chronicles-OCR), [HF](https://huggingface.co/datasets/VirtualLUO/Chronicles-OCR) |
 | **S-OBI** | Sentence-level OBI understanding | 95 standardized sentence-level OBI instances and 695 QA pairs for semantic matching, slot extraction, and contextual reasoning | [arXiv](https://arxiv.org/abs/2606.31169) |
+| **Structure–semantic Dual-Alignment Benchmark** | LLM evaluation | Structure and semantic alignment benchmarking for ancient OBI understanding | [Paper](https://www.nature.com/articles/s40494-026-02770-7) |
+| **OBB Benchmark** | Evidence-grounded OBS understanding | Benchmark and OBS-PRTF framework for evidence-grounded oracle bone script understanding | [Paper](https://doi.org/10.1007/978-981-92-3510-0_20) |
+| **Parametric OBS SVG Resource** | Parametric representation | Dataset, adaptive arc segmentation, and SVG resources for oracle bone script | [Preprint](https://doi.org/10.21203/rs.3.rs-10028068/v1) |
+| **Long-tail OBI Detection and Recognition Diagnostics** | Detection + recognition evaluation | Diagnostic benchmark and metric analysis for long-tailed oracle bone character detection and recognition | [Preprint](https://doi.org/10.21203/rs.3.rs-10039997/v1) |
 | **Oracle-MNIST** | Benchmark classification | 30,222 grayscale oracle-character images in 10 categories | [Paper](https://www.nature.com/articles/s41597-024-02933-w), [Code](https://github.com/wm-bupt/oracle-mnist) |
 | **Oracle-P15K** | Long-tail recognition | Long-tail OBI benchmark with synthesis-based augmentation | [Paper](https://dl.acm.org/doi/10.1145/3746027.3755067), [Code](https://github.com/OBI-Future/Oracle-P15K) |
 | **PD-OBS** | Interpretable decipherment | Radical and pictographic annotations for LVLM training | [Paper](https://arxiv.org/abs/2508.10113), [Code](https://github.com/PKXX1943/PD-OBS) |
@@ -129,7 +139,7 @@ This README highlights representative works. For a broader task-oriented bibliog
 
 <em>Yuliang Liu, Haisu Guan, Pengjie Wang, Xinyu Wang, Jinpeng Wan, Kaile Zhang, Handong Zheng, Xingchen Liu, Zhebin Kuang, Huanxin Yang, Bang Li, Yongge Liu, Lianwen Jin, Xiang Bai</em>.
 
-[Paper](https://www.sciencedirect.com/science/article/pii/S2666675826002092) | [GitHub Code](https://github.com/Yuliang-Liu/AlphaOracle)
+[Paper](https://www.sciencedirect.com/science/article/pii/S2666675826002092) | [arXiv](https://arxiv.org/abs/2607.17849) | [GitHub Code](https://github.com/Yuliang-Liu/AlphaOracle)
 
 AlphaOracle is published in **The Innovation**. AlphaOracle integrates computer vision, computational linguistics, and philological validation into a human-workflow-inspired framework for oracle bone script analysis and decipherment.
 
