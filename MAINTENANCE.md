@@ -49,7 +49,9 @@
 ### C. 补充新文献和资源
 
 - 关键词覆盖 `oracle bone`、`oracle bone inscription`、`oracle bone script`、`oracle character`、`甲骨文`，辅以 recognition、decipherment、interpretation、retrieval、rejoining、restoration、benchmark 等任务词。`OBI`、`OBC`、`oracle` 单独使用易有大量无关结果。
-- 检索 arXiv、主要会议论文集和相关期刊新文章；关注 Scientific Data、npj Heritage Science 等领域来源。参考 OBI-Survey 等资源库发现遗漏，再核对论文原页。
+- **新文献发现必须至少完成三路检索**：arXiv/API；出版社、会议论文集和 DOI 页面（包括 Crossref/OpenAlex/DBLP 用于发现候选）；领域期刊和项目/综述索引（如 Scientific Data、npj Heritage Science、JOCCH、Data Intelligence、Springer LNCS、OBI-Survey）。只查 arXiv 不能宣布“本周无新增”。
+- 对时间窗口内的 Crossref/OpenAlex/DBLP 候选逐项回到出版社、会议或 DOI 官方页面核对标题、作者、日期和主题；元数据服务只能发现候选，不能单独作为收录证据。
+- 每轮周记录必须列出三路来源、查询日期、日期过滤范围、命中的候选及排除理由。只有三路检索均完成且候选已去重、相关性已判断后，才允许将“新增论文/资源”记为 0；若任一路未完成，结果必须标为部分完成。
 - 按仓库现有任务分类判断相关性；更广义古文字/字符演变工作放入对应扩展分类。README 不必重复完整新增清单。
 - 检查同一论文是否已用旧标题、数据集名或项目简称收录；通常先用 arXiv ID/DOI 去重，再人工核对作者与内容。
 - 确认新增或更新的代码、数据、项目页属于该论文。区分“实际开放下载”“需申请”“仅示例”“尚未发布”，不要把空仓库或演示页面写成完整数据发布。

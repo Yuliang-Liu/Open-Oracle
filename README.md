@@ -11,7 +11,7 @@ With the support of big data and AI, oracle bone script research has entered a n
 <h5 align="center">Please give us a star ⭐ for the latest updates.</h5>
 
 <p align="center">
-  <b>Last maintained:</b> 2026-07-28<br>
+  <b>Last maintained:</b> 2026-09-11<br>
   <a href="PAPERS.md"><b>Comprehensive paper index</b></a>
 </p>
 
@@ -34,6 +34,12 @@ This section lists representative recent oracle bone inscription work from all g
 | Year | Project or Paper | Venue and Status | Category | Links |
 | :---: | :--- | :---: | :--- | :--- |
 | 2026 | **AlphaOracle** | The Innovation | Decipherment and interpretation | [Paper](https://www.sciencedirect.com/science/article/pii/S2666675826002092), [arXiv](https://arxiv.org/abs/2607.17849), [Code](https://github.com/Yuliang-Liu/AlphaOracle) |
+| 2026 | **Stroke and structure priors improve few-shot recognition of oracle bone inscriptions** | npj Heritage Science 2026 | Recognition | [Paper](https://doi.org/10.1038/s40494-026-02946-1) |
+| 2026 | **Decipherment of Oracle Bone Inscription via Component Deconstruction and Alignment** | ICDAR 2026 | Decipherment | [Paper](https://doi.org/10.1007/978-3-032-36023-6_28) |
+| 2026 | **Evolution-Guided Diffusion for Oracle Bone Script Decipherment** | ICDAR 2026 | Decipherment | [Paper](https://doi.org/10.1007/978-3-032-36023-6_39) |
+| 2026 | **AWM: Augmentation, Weighting, and Mixture-of-Experts for Robust Oracle Bone Character Recognition under Long-Tailed Distributions** | Data Intelligence 2026 | Recognition | [Paper](https://doi.org/10.3724/2096-7004.di.2026.2007) |
+| 2026 | **HCT-Net: A Hybrid CNN-Transformer Network for Robust Oracle Bone Script Recognition** | Pattern Recognition 2026 | Recognition | [Paper](https://doi.org/10.1007/978-3-032-31654-7_33) |
+| 2026 | **A Review of Artificial Intelligence Techniques in Oracle Bone Inscriptions** | JOCCH 2026 | Survey | [Paper](https://doi.org/10.1145/3837082) |
 | 2026 | **Structure–semantic dual-alignment benchmarking of LLM capability on ancient OBI** | npj Heritage Science 2026 | Benchmark and LLM evaluation | [Paper](https://www.nature.com/articles/s40494-026-02770-7) |
 | 2026 | **FaSDiNet** | Applied Sciences 2026 | Fragment rejoining | [Paper](https://doi.org/10.3390/app16147236) |
 | 2026 | **Evidence-Grounded Oracle Bone Script Understanding** | LNCS 2026 | OBB benchmark and OBS-PRTF framework | [Paper](https://doi.org/10.1007/978-981-92-3510-0_20) |

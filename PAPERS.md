@@ -28,6 +28,7 @@
 | InteChar: A Unified Oracle Bone Character List for Ancient Chinese Language Modeling | arXiv 2025, AAAI 2026 | Unified character list for ancient Chinese language modeling | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/36981), [arXiv](https://arxiv.org/abs/2508.15791) |
 | Oracle Bone Inscriptions Information Processing: A Comprehensive Survey | npj Heritage Science 2026 | Task-centric OBI information-processing survey | [Paper](https://www.nature.com/articles/s40494-026-02511-w), [Repo](https://github.com/OBI-Future/OBI-Survey) |
 | Towards Computational Chinese Paleography | arXiv 2026 | Position paper on computational paleography | [arXiv](https://arxiv.org/abs/2601.06753) |
+| A Review of Artificial Intelligence Techniques in Oracle Bone Inscriptions | Journal on Computing and Cultural Heritage 2026 | Review of AI methods for oracle bone inscriptions | [Paper](https://doi.org/10.1145/3837082) |
 
 ## Datasets and Benchmarks
 
@@ -71,6 +72,8 @@
 | Interpretable Oracle Bone Script Decipherment through Radical and Pictographic Analysis with LVLMs | arXiv 2025 | Interpretable LVLM decipherment with PD-OBS | [arXiv](https://arxiv.org/abs/2508.10113), [Code](https://github.com/PKXX1943/PD-OBS) |
 | AlphaOracle: Oracle Bone Script Decipherment via Human-Workflow-Inspired Deep Learning | The Innovation 2026 | Human-workflow-inspired decipherment framework | [Paper](https://www.sciencedirect.com/science/article/pii/S2666675826002092), [arXiv](https://arxiv.org/abs/2607.17849), [Code](https://github.com/Yuliang-Liu/AlphaOracle) |
 | Decoding Ancient Oracle Bone Script via Generative Dictionary Retrieval | arXiv 2026 | Generative dictionary retrieval | [arXiv](https://arxiv.org/abs/2604.09668) |
+| Decipherment of Oracle Bone Inscription via Component Deconstruction and Alignment | ICDAR 2026 | Component deconstruction and alignment for decipherment | [Paper](https://doi.org/10.1007/978-3-032-36023-6_28) |
+| Evolution-Guided Diffusion for Oracle Bone Script Decipherment | ICDAR 2026 | Evolution-guided diffusion for decipherment | [Paper](https://doi.org/10.1007/978-3-032-36023-6_39) |
 | Human--Computer Collaborative Approach to the Decipherment of Oracle Bone Inscriptions with Generative Adversarial Networks | npj Heritage Science 2026 | Image-to-image translation and human-computer collaboration | [Paper](https://www.nature.com/articles/s40494-026-02509-4) |
 | A Multi-task Multimodal Reasoning Framework for Oracle Bone Character Interpretation | Scientia Sinica Informationis 2026 | Semantic interpretation and multi-task reasoning | [Paper](https://doi.org/10.1360/SSI-2025-0551) |
 | Deciphering Oracle Bone Characters: Pictographic Captioning and Reasoning for Morphological Recognition | Information Processing & Management 2026 | Pictographic captioning and LMM reasoning | [Paper](https://www.sciencedirect.com/science/article/pii/S0306457326002396) |
@@ -132,6 +135,9 @@
 | Prism-OBI: A Novel Framework for Oracle Bone Inscription Recognition via Visual Perception and Feature Decoupling | npj Heritage Science 2026 | Visual perception and feature decoupling | [Paper](https://www.nature.com/articles/s40494-026-02493-9) |
 | Leveraging Progressive Domain Adaptation for Unsupervised Cross-domain Oracle Bone Inscription Recognition | npj Heritage Science 2026 | Progressive domain adaptation | [Paper](https://www.nature.com/articles/s40494-026-02690-6) |
 | Enhancing Oracle Bone Inscription Recognition via Multi-Scale Layer Attention | arXiv 2026 | Multi-scale and cross-layer feature interaction for robust OBI recognition | [arXiv](https://arxiv.org/abs/2607.00057) |
+| HCT-Net: A Hybrid CNN-Transformer Network for Robust Oracle Bone Script Recognition | Pattern Recognition 2026 | Hybrid CNN-Transformer recognition | [Paper](https://doi.org/10.1007/978-3-032-31654-7_33) |
+| AWM: Augmentation, Weighting, and Mixture-of-Experts for Robust Oracle Bone Character Recognition under Long-Tailed Distributions | Data Intelligence 2026 | Long-tailed recognition with augmentation, weighting, and mixture-of-experts | [Paper](https://doi.org/10.3724/2096-7004.di.2026.2007) |
+| Stroke and structure priors improve few-shot recognition of oracle bone inscriptions | npj Heritage Science 2026 | Stroke and structure priors for few-shot recognition | [Paper](https://doi.org/10.1038/s40494-026-02946-1) |
 | OracleNet: a Few-shot Multi-scale Deep Learning Framework for Calibrated Authentication of Oracle Bone Artefacts | npj Heritage Science 2026 | Few-shot artefact authentication with calibration-aware confidence estimation | [Paper](https://www.nature.com/articles/s40494-026-02747-6) |
 | ROOTS: Recognizing Oracle Bone Inscriptions via an Organized Tree Structure | Preprint 2026 | Organized tree structure for recognition | [Preprint](https://doi.org/10.21203/rs.3.rs-9733608/v1) |
 | Detecting Unknown and Classifying Known Oracle Bone Characters via Novel Data Augmentation | npj Heritage Science 2026 | Open-world recognition with OOD detection | [Paper](https://www.nature.com/articles/s40494-026-02678-2) |
