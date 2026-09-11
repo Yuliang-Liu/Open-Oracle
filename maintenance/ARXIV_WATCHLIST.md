@@ -14,26 +14,26 @@
 
 | arXiv ID | 论文 / 项目（当前索引名称） | 原索引标注 | PAPERS 行数 | 最新核验日期 / 版本 | 当前结论 | 证据 / 下次动作 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [2303.07012](https://arxiv.org/abs/2303.07012) | AGTGAN: Unpaired Image Translation for Photographic Ancient Character Generation | arXiv 2023 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2401.12467](https://arxiv.org/abs/2401.12467) | An Open Dataset for the Evolution of Oracle Bone Characters: EVOBC | arXiv 2024 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2409.15893](https://arxiv.org/abs/2409.15893) | Unsupervised Attention Regularization Based Domain Adaptation for Oracle Character Recognition | arXiv 2024 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2411.17837](https://arxiv.org/abs/2411.17837) | OracleSage: Towards Unified Visual-Linguistic Understanding of Oracle Bone Scripts through Cross-Modal Knowledge Fusion | arXiv 2024 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2505.03836](https://arxiv.org/abs/2505.03836) | Explainable Coarse-to-Fine Ancient Manuscript Duplicates Discovery, OBD-Finder | arXiv 2025 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2506.03798](https://arxiv.org/abs/2506.03798) | CoLa: Chinese Character Decomposition with Compositional Latent Components | arXiv 2025 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2506.19208](https://arxiv.org/abs/2506.19208) | Ancient Script Image Recognition and Processing: A Review | arXiv 2025 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2508.10113](https://arxiv.org/abs/2508.10113) | Pictographic Decipherment OBS Dataset (PD-OBS) | arXiv 2025 | 2 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2510.13745](https://arxiv.org/abs/2510.13745) | UniCalli: A Unified Diffusion Framework for Column-Level Generation and Recognition of Chinese Calligraphy | arXiv 2025 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2510.26114](https://arxiv.org/abs/2510.26114) | OracleAgent: A Multimodal Reasoning Agent for Oracle Bone Script Research | arXiv 2025 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2511.00076](https://arxiv.org/abs/2511.00076) | Bridging Vision, Language, and Mathematics: Pictographic Character Reconstruction with Bézier Curves | arXiv 2025 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2601.06753](https://arxiv.org/abs/2601.06753) | Towards Computational Chinese Paleography | arXiv 2026 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2604.06711](https://arxiv.org/abs/2604.06711) | Specializing Large Models for Oracle Bone Script Interpretation via Component-Grounded Multimodal Knowledge Augmentation | arXiv 2026 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2604.09668](https://arxiv.org/abs/2604.09668) | Decoding Ancient Oracle Bone Script via Generative Dictionary Retrieval | arXiv 2026 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2604.11299](https://arxiv.org/abs/2604.11299) | Enhancing Multimodal Large Language Models for Ancient Chinese Character Evolution Analysis via Glyph-Driven Fine-Tuning | arXiv 2026 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2604.12865](https://arxiv.org/abs/2604.12865) | From Edges to Meaning: Semantic Line Sketches as a Cognitive Scaffold for Ancient Pictograph Invention | arXiv 2026 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2605.11960](https://arxiv.org/abs/2605.11960) | Chronicles-OCR: A Cross-Temporal Perception Benchmark for the Evolutionary Trajectory of Chinese Characters | arXiv 2026 | 2 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2606.25906](https://arxiv.org/abs/2606.25906) | OracleAnalyser: Analysing Implicit Semantics of Oracle Bone Scripts through MLLMs with Post-training | arXiv 2026 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2606.31169](https://arxiv.org/abs/2606.31169) | Beyond Single Character: Evaluating MLLMs for Sentence-Level Oracle Bone Inscription Understanding | arXiv 2026 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
-| [2607.00057](https://arxiv.org/abs/2607.00057) | Enhancing Oracle Bone Inscription Recognition via Multi-Scale Layer Attention | arXiv 2026 | 1 | — | 待首次核验 | 尚无核验证据；执行首次状态调查 |
+| [2303.07012](https://arxiv.org/abs/2303.07012) | AGTGAN: Unpaired Image Translation for Photographic Ancient Character Generation | arXiv 2023 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2401.12467](https://arxiv.org/abs/2401.12467) | An Open Dataset for the Evolution of Oracle Bone Characters: EVOBC | arXiv 2024 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2409.15893](https://arxiv.org/abs/2409.15893) | Unsupervised Attention Regularization Based Domain Adaptation for Oracle Character Recognition | arXiv 2024 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2411.17837](https://arxiv.org/abs/2411.17837) | OracleSage: Towards Unified Visual-Linguistic Understanding of Oracle Bone Scripts through Cross-Modal Knowledge Fusion | arXiv 2024 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2505.03836](https://arxiv.org/abs/2505.03836) | Explainable Coarse-to-Fine Ancient Manuscript Duplicates Discovery, OBD-Finder | arXiv 2025 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2506.03798](https://arxiv.org/abs/2506.03798) | CoLa: Chinese Character Decomposition with Compositional Latent Components | arXiv 2025 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2506.19208](https://arxiv.org/abs/2506.19208) | Ancient Script Image Recognition and Processing: A Review | arXiv 2025 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2508.10113](https://arxiv.org/abs/2508.10113) | Pictographic Decipherment OBS Dataset (PD-OBS) | arXiv 2025 | 2 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2510.13745](https://arxiv.org/abs/2510.13745) | UniCalli: A Unified Diffusion Framework for Column-Level Generation and Recognition of Chinese Calligraphy | arXiv 2025 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2510.26114](https://arxiv.org/abs/2510.26114) | OracleAgent: A Multimodal Reasoning Agent for Oracle Bone Script Research | arXiv 2025 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2511.00076](https://arxiv.org/abs/2511.00076) | Bridging Vision, Language, and Mathematics: Pictographic Character Reconstruction with Bézier Curves | arXiv 2025 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2601.06753](https://arxiv.org/abs/2601.06753) | Towards Computational Chinese Paleography | arXiv 2026 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2604.06711](https://arxiv.org/abs/2604.06711) | Specializing Large Models for Oracle Bone Script Interpretation via Component-Grounded Multimodal Knowledge Augmentation | arXiv 2026 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2604.09668](https://arxiv.org/abs/2604.09668) | Decoding Ancient Oracle Bone Script via Generative Dictionary Retrieval | arXiv 2026 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2604.11299](https://arxiv.org/abs/2604.11299) | Enhancing Multimodal Large Language Models for Ancient Chinese Character Evolution Analysis via Glyph-Driven Fine-Tuning | arXiv 2026 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2604.12865](https://arxiv.org/abs/2604.12865) | From Edges to Meaning: Semantic Line Sketches as a Cognitive Scaffold for Ancient Pictograph Invention | arXiv 2026 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2605.11960](https://arxiv.org/abs/2605.11960) | Chronicles-OCR: A Cross-Temporal Perception Benchmark for the Evolutionary Trajectory of Chinese Characters | arXiv 2026 | 2 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2606.25906](https://arxiv.org/abs/2606.25906) | OracleAnalyser: Analysing Implicit Semantics of Oracle Bone Scripts through MLLMs with Post-training | arXiv 2026 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2606.31169](https://arxiv.org/abs/2606.31169) | Beyond Single Character: Evaluating MLLMs for Sentence-Level Oracle Bone Inscription Understanding | arXiv 2026 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
+| [2607.00057](https://arxiv.org/abs/2607.00057) | Enhancing Oracle Bone Inscription Recognition via Multi-Scale Layer Attention | arXiv 2026 | 1 | 2026-09-11 / 最新公开版本 | 本轮未发现可核对的正式出版证据 | 已查 arXiv 页面；下周继续核对出版社、会议录用名单和 Crossref |
 
 
 ## 补充候选与归档规则
@@ -43,3 +43,4 @@
 ## 已发表且已同步（归档）
 
 尚无经本流程核验并归档的条目。归档时保留稳定 ID、原状态、正式 venue/year、官方证据、核验日期及周记录链接；发生冲突或发现错误时重新激活。
+
