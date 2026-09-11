@@ -2,6 +2,8 @@
 
 Thank you for helping maintain Open-Oracle.
 
+For the weekly maintenance procedure, including checking older arXiv papers for acceptance and publication, see [MAINTENANCE.md](MAINTENANCE.md) (中文). Track unresolved publication status in the [arXiv watchlist](maintenance/ARXIV_WATCHLIST.md).
+
 ## Add a paper or dataset
 
 Please include the following information:

@@ -275,6 +275,8 @@ HUST-OBC is a large-scale open dataset for oracle bone character recognition and
 
 ## Contributing
 
+Maintainers: see the [weekly maintenance workflow](MAINTENANCE.md) (中文) for literature updates and tracking acceptance/publication of older arXiv papers.
+
 We welcome pull requests and issues. For new papers and resources, please include:
 
 1. **Title**, **authors**, **venue and year**, and **task category**.
