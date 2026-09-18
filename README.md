@@ -11,7 +11,7 @@ With the support of big data and AI, oracle bone script research has entered a n
 <h5 align="center">Please give us a star ⭐ for the latest updates.</h5>
 
 <p align="center">
-  <b>Last maintained:</b> 2026-09-11<br>
+  <b>Last maintained:</b> 2026-09-18<br>
   <a href="PAPERS.md"><b>Comprehensive paper index</b></a>
 </p>
 
@@ -34,6 +34,8 @@ This section lists representative recent oracle bone inscription work from all g
 | Year | Project or Paper | Venue and Status | Category | Links |
 | :---: | :--- | :---: | :--- | :--- |
 | 2026 | **AlphaOracle** | The Innovation | Decipherment and interpretation | [Paper](https://www.sciencedirect.com/science/article/pii/S2666675826002092), [arXiv](https://arxiv.org/abs/2607.17849), [Code](https://github.com/Yuliang-Liu/AlphaOracle) |
+| 2026 | **FROD: Feature Matching Residual Denoising Oracle Bone Decipher** | arXiv 2026 | Decipherment | [arXiv](https://arxiv.org/abs/2609.17227) |
+| 2026 | **Construction of multimodal oracle bone semantic reasoning and knowledge graphs in archaeology under artificial intelligence technology** | Scientific Reports 2026 | Multimodal reasoning and knowledge graph | [Paper](https://doi.org/10.1038/s41598-026-71440-2) |
 | 2026 | **Stroke and structure priors improve few-shot recognition of oracle bone inscriptions** | npj Heritage Science 2026 | Recognition | [Paper](https://doi.org/10.1038/s40494-026-02946-1) |
 | 2026 | **Decipherment of Oracle Bone Inscription via Component Deconstruction and Alignment** | ICDAR 2026 | Decipherment | [Paper](https://doi.org/10.1007/978-3-032-36023-6_28) |
 | 2026 | **Evolution-Guided Diffusion for Oracle Bone Script Decipherment** | ICDAR 2026 | Decipherment | [Paper](https://doi.org/10.1007/978-3-032-36023-6_39) |
@@ -51,13 +53,13 @@ This section lists representative recent oracle bone inscription work from all g
 | 2026 | **PictOBI-20k** | ICASSP 2026 | Visual decipherment benchmark | [IEEE](https://ieeexplore.ieee.org/document/11462601), [arXiv](https://arxiv.org/abs/2509.05773), [Code](https://github.com/OBI-Future/PictOBI-20k) |
 | 2026 | **Chronicles-OCR** | arXiv 2026 | Cross-temporal OCR benchmark | [arXiv](https://arxiv.org/abs/2605.11960), [Code](https://github.com/VirtualLUOUCAS/Chronicles-OCR), [HF](https://huggingface.co/datasets/VirtualLUO/Chronicles-OCR) |
 | 2026 | **Beyond Single Character: Evaluating MLLMs for Sentence-Level Oracle Bone Inscription Understanding** | arXiv 2026 | Sentence-level OBI benchmark | [arXiv](https://arxiv.org/abs/2606.31169) |
-| 2026 | **Enhancing Oracle Bone Inscription Recognition via Multi-Scale Layer Attention** | arXiv 2026 | Recognition | [arXiv](https://arxiv.org/abs/2607.00057) |
+| 2026 | **Enhancing Oracle Bone Inscription Recognition via Multi-Scale Layer Attention** | Information Sciences (online 2026; issue 2027) | Recognition | [Paper](https://doi.org/10.1016/j.ins.2026.124083), [arXiv](https://arxiv.org/abs/2607.00057) |
 | 2026 | **OracleAnalyser** | arXiv 2026 | MLLM-based oracle-bone analysis | [arXiv](https://arxiv.org/abs/2606.25906) |
 | 2026 | **Oracle bone inscription detection model with frequency-domain attention fusion and multi-scale optimization** | npj Heritage Science 2026 | Detection | [Paper](https://www.nature.com/articles/s40494-026-02751-w) |
 | 2026 | **Explainable Oracle Bone Script Recognition via Multimodal Pictographic Reasoning** | AAAI 2026 | Explainable recognition | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/41296) |
 | 2026 | **OracleDet** | npj Heritage Science 2026 | Complex-scene OBI detection | [Paper](https://www.nature.com/articles/s40494-026-02621-5), [Code](https://github.com/ZCDMW/OracleDet) |
 | 2026 | **OBI Designer** | npj Heritage Science 2026 | Artistic OBI character generation | [Paper](https://www.nature.com/articles/s40494-026-02417-7) |
-| 2026 | **Specializing Large Models for OBS Interpretation via Component-Grounded Multimodal Knowledge Augmentation** | arXiv 2026 | Knowledge-augmented interpretation | [arXiv](https://arxiv.org/abs/2604.06711) |
+| 2026 | **Specializing Large Models for OBS Interpretation via Component-Grounded Multimodal Knowledge Augmentation** | ACL 2026 Long Paper | Knowledge-augmented interpretation | [Paper](https://aclanthology.org/2026.acl-long.1626/), [arXiv](https://arxiv.org/abs/2604.06711) |
 | 2026 | **Decoding Ancient Oracle Bone Script via Generative Dictionary Retrieval** | arXiv 2026 | Dictionary retrieval | [arXiv](https://arxiv.org/abs/2604.09668) |
 | 2025 | **OracleFusion** | ICCV 2025 | Structurally constrained semantic typography | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Li_OracleFusion_Assisting_the_Decipherment_of_Oracle_Bone_Script_with_Structurally_ICCV_2025_paper.html), [arXiv](https://arxiv.org/abs/2506.21101), [Code](https://github.com/lcs0215/OracleFusion) |
 | 2025 | **V-Oracle** | ACL 2025 | Progressive VQA-style reasoning | [Paper](https://aclanthology.org/2025.acl-long.986/) |
