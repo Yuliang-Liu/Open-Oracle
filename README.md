@@ -11,7 +11,7 @@ With the support of big data and AI, oracle bone script research has entered a n
 <h5 align="center">Please give us a star ⭐ for the latest updates.</h5>
 
 <p align="center">
-  <b>Last maintained:</b> 2026-09-18<br>
+  <b>Last maintained:</b> 2026-09-27<br>
   <a href="PAPERS.md"><b>Comprehensive paper index</b></a>
 </p>
 
@@ -34,7 +34,11 @@ This section lists representative recent oracle bone inscription work from all g
 | Year | Project or Paper | Venue and Status | Category | Links |
 | :---: | :--- | :---: | :--- | :--- |
 | 2026 | **AlphaOracle** | The Innovation | Decipherment and interpretation | [Paper](https://www.sciencedirect.com/science/article/pii/S2666675826002092), [arXiv](https://arxiv.org/abs/2607.17849), [Code](https://github.com/Yuliang-Liu/AlphaOracle) |
-| 2026 | **FROD: Feature Matching Residual Denoising Oracle Bone Decipher** | arXiv 2026 | Decipherment | [arXiv](https://arxiv.org/abs/2609.17227) |
+| 2026 | **FROD: Feature Matching Residual Denoising Oracle Bone Decipher** | arXiv 2026; author reports ICONIP 2026 acceptance (official record pending) | Decipherment | [arXiv](https://arxiv.org/abs/2609.17227) |
+| 2026 | **ROOTS: Recognizing Oracle Bone Inscriptions via an Organized Tree Structure** | npj Heritage Science 2026 | Recognition | [Paper](https://doi.org/10.1038/s40494-026-02989-4), [Preprint](https://doi.org/10.21203/rs.3.rs-9733608/v1) |
+| 2026 | **Can Neural Networks Learn Visual Correspondence Between Pictographic Oracle Bone Scripts and Object Images?** | Expert Systems with Applications (online 2026; issue 2027) | Visual correspondence and pictographic recognition | [Paper](https://doi.org/10.1016/j.eswa.2026.134178) |
+| 2026 | **Dual-branch segmentation of oracle bone drill chisel and its impact on group classification** | npj Heritage Science 2026 | Detection and segmentation | [Paper](https://doi.org/10.1038/s40494-026-03006-4) |
+| 2026 | **Denoising of oracle bone rubbing images via a residual network based on base-residual decomposition** | npj Heritage Science 2026 | Restoration | [Paper](https://doi.org/10.1038/s40494-026-02970-1) |
 | 2026 | **Construction of multimodal oracle bone semantic reasoning and knowledge graphs in archaeology under artificial intelligence technology** | Scientific Reports 2026 | Multimodal reasoning and knowledge graph | [Paper](https://doi.org/10.1038/s41598-026-71440-2) |
 | 2026 | **Stroke and structure priors improve few-shot recognition of oracle bone inscriptions** | npj Heritage Science 2026 | Recognition | [Paper](https://doi.org/10.1038/s40494-026-02946-1) |
 | 2026 | **Decipherment of Oracle Bone Inscription via Component Deconstruction and Alignment** | ICDAR 2026 | Decipherment | [Paper](https://doi.org/10.1007/978-3-032-36023-6_28) |
@@ -93,7 +97,7 @@ This section lists representative recent oracle bone inscription work from all g
 | **S-OBI** | Sentence-level OBI understanding | 95 standardized sentence-level OBI instances and 695 QA pairs for semantic matching, slot extraction, and contextual reasoning | [arXiv](https://arxiv.org/abs/2606.31169) |
 | **Structure–semantic Dual-Alignment Benchmark** | LLM evaluation | Structure and semantic alignment benchmarking for ancient OBI understanding | [Paper](https://www.nature.com/articles/s40494-026-02770-7) |
 | **OBB Benchmark** | Evidence-grounded OBS understanding | Benchmark and OBS-PRTF framework for evidence-grounded oracle bone script understanding | [Paper](https://doi.org/10.1007/978-981-92-3510-0_20) |
-| **Parametric OBS SVG Resource** | Parametric representation | Dataset, adaptive arc segmentation, and SVG resources for oracle bone script | [Preprint](https://doi.org/10.21203/rs.3.rs-10028068/v1) |
+| **Parametric OBS SVG Resource** | Parametric representation | Dataset, adaptive arc segmentation, and SVG resources for oracle bone script | [Paper](https://doi.org/10.1038/s40494-026-02995-6), [Preprint](https://doi.org/10.21203/rs.3.rs-10028068/v1) |
 | **Long-tail OBI Detection and Recognition Diagnostics** | Detection + recognition evaluation | Diagnostic benchmark and metric analysis for long-tailed oracle bone character detection and recognition | [Preprint](https://doi.org/10.21203/rs.3.rs-10039997/v1) |
 | **Oracle-MNIST** | Benchmark classification | 30,222 grayscale oracle-character images in 10 categories | [Paper](https://www.nature.com/articles/s41597-024-02933-w), [Code](https://github.com/wm-bupt/oracle-mnist) |
 | **Oracle-P15K** | Long-tail recognition | Long-tail OBI benchmark with synthesis-based augmentation | [Paper](https://dl.acm.org/doi/10.1145/3746027.3755067), [Code](https://github.com/OBI-Future/Oracle-P15K) |

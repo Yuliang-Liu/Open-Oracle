@@ -55,7 +55,7 @@
 | Beyond Single Character: Evaluating MLLMs for Sentence-Level Oracle Bone Inscription Understanding | arXiv 2026 | S-OBI sentence-level benchmark with semantic matching, slot extraction, and contextual reasoning | [arXiv](https://arxiv.org/abs/2606.31169) |
 | Structure–semantic dual-alignment benchmarking of large language model capability on ancient oracle bone inscriptions | npj Heritage Science 2026 | Structure and semantic alignment benchmark for LLMs on ancient OBI | [Paper](https://www.nature.com/articles/s40494-026-02770-7) |
 | Evidence-Grounded Oracle Bone Script Understanding: OBB Benchmark and OBS-PRTF Framework | LNCS 2026 | OBB benchmark and evidence-grounded OBS understanding framework | [Paper](https://doi.org/10.1007/978-981-92-3510-0_20) |
-| Interpretable Parametric Foundation for Oracle Bone Script: Dataset, Adaptive Arc Segmentation, and SVG Resource | Research Square 2026 | Parametric OBS dataset, adaptive arc segmentation, and SVG resources | [Preprint](https://doi.org/10.21203/rs.3.rs-10028068/v1) |
+| An Interpretable Parametric Representation and Open Dataset for Oracle Bone Script: Adaptive Arc Segmentation and SVG Resource | npj Heritage Science 2026 | Parametric OBS dataset, adaptive arc segmentation, and SVG resources | [Paper](https://doi.org/10.1038/s40494-026-02995-6), [Preprint](https://doi.org/10.21203/rs.3.rs-10028068/v1) |
 | Beyond Aggregate Metrics Diagnosing the Long-Tailed Failure of Oracle Bone Character Detection and Recognition | Research Square 2026 | Long-tail diagnostic benchmark and metric analysis for OBI detection and recognition | [Preprint](https://doi.org/10.21203/rs.3.rs-10039997/v1) |
 
 ## Decipherment and Interpretation
@@ -71,7 +71,7 @@
 | OracleFusion: Assisting the Decipherment of Oracle Bone Script with Structurally Constrained Semantic Typography | ICCV 2025 | Structurally constrained semantic typography for decipherment | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Li_OracleFusion_Assisting_the_Decipherment_of_Oracle_Bone_Script_with_Structurally_ICCV_2025_paper.html), [Code](https://github.com/lcs0215/OracleFusion) |
 | Interpretable Oracle Bone Script Decipherment through Radical and Pictographic Analysis with LVLMs | arXiv 2025 | Interpretable LVLM decipherment with PD-OBS | [arXiv](https://arxiv.org/abs/2508.10113), [Code](https://github.com/PKXX1943/PD-OBS) |
 | AlphaOracle: Oracle Bone Script Decipherment via Human-Workflow-Inspired Deep Learning | The Innovation 2026 | Human-workflow-inspired decipherment framework | [Paper](https://www.sciencedirect.com/science/article/pii/S2666675826002092), [arXiv](https://arxiv.org/abs/2607.17849), [Code](https://github.com/Yuliang-Liu/AlphaOracle) |
-| FROD: Feature Matching Residual Denoising Oracle Bone Decipher | arXiv 2026 | Feature matching, residual denoising diffusion, and font refinement for oracle-to-modern character translation | [arXiv](https://arxiv.org/abs/2609.17227) |
+| FROD: Feature Matching Residual Denoising Oracle Bone Decipher | arXiv 2026; author reports ICONIP 2026 acceptance (official record pending) | Feature matching, residual denoising diffusion, and font refinement for oracle-to-modern character translation | [arXiv](https://arxiv.org/abs/2609.17227) |
 | Decoding Ancient Oracle Bone Script via Generative Dictionary Retrieval | arXiv 2026 | Generative dictionary retrieval | [arXiv](https://arxiv.org/abs/2604.09668) |
 | Decipherment of Oracle Bone Inscription via Component Deconstruction and Alignment | ICDAR 2026 | Component deconstruction and alignment for decipherment | [Paper](https://doi.org/10.1007/978-3-032-36023-6_28) |
 | Evolution-Guided Diffusion for Oracle Bone Script Decipherment | ICDAR 2026 | Evolution-guided diffusion for decipherment | [Paper](https://doi.org/10.1007/978-3-032-36023-6_39) |
@@ -141,7 +141,8 @@
 | AWM: Augmentation, Weighting, and Mixture-of-Experts for Robust Oracle Bone Character Recognition under Long-Tailed Distributions | Data Intelligence 2026 | Long-tailed recognition with augmentation, weighting, and mixture-of-experts | [Paper](https://doi.org/10.3724/2096-7004.di.2026.2007) |
 | Stroke and structure priors improve few-shot recognition of oracle bone inscriptions | npj Heritage Science 2026 | Stroke and structure priors for few-shot recognition | [Paper](https://doi.org/10.1038/s40494-026-02946-1) |
 | OracleNet: a Few-shot Multi-scale Deep Learning Framework for Calibrated Authentication of Oracle Bone Artefacts | npj Heritage Science 2026 | Few-shot artefact authentication with calibration-aware confidence estimation | [Paper](https://www.nature.com/articles/s40494-026-02747-6) |
-| ROOTS: Recognizing Oracle Bone Inscriptions via an Organized Tree Structure | Preprint 2026 | Organized tree structure for recognition | [Preprint](https://doi.org/10.21203/rs.3.rs-9733608/v1) |
+| ROOTS: Recognizing Oracle Bone Inscriptions via an Organized Tree Structure | npj Heritage Science 2026 | Organized tree structure for recognition | [Paper](https://doi.org/10.1038/s40494-026-02989-4), [Preprint](https://doi.org/10.21203/rs.3.rs-9733608/v1) |
+| Can Neural Networks Learn Visual Correspondence Between Pictographic Oracle Bone Scripts and Object Images? | Expert Systems with Applications, online 2026 (issue 2027) | Category-level visual correspondence between pictographic oracle scripts and object images | [Paper](https://doi.org/10.1016/j.eswa.2026.134178) |
 | Detecting Unknown and Classifying Known Oracle Bone Characters via Novel Data Augmentation | npj Heritage Science 2026 | Open-world recognition with OOD detection | [Paper](https://www.nature.com/articles/s40494-026-02678-2) |
 
 ## Detection and Segmentation
@@ -172,6 +173,7 @@
 | OBIFlo-SAM: Multi-task Semantic Recognition and Segmentation of Oracle Bone Inscription | npj Heritage Science 2025 | Multi-task semantic recognition and segmentation | [Paper](https://www.nature.com/articles/s40494-025-02157-0) |
 | FDW-YOLO: An Improved YOLOv12 for Oracle Bone Inscriptions Detection | ICONIP 2025 and 2026 | YOLOv12 detection | [Paper](https://doi.org/10.1007/978-981-95-4378-6_18) |
 | OBDC-Unet: A U-Shaped Network Leveraging Wavelet Dynamics and Multi-Scale Receptive Fields for Oracle Bone Drill Chisel Segmentation | npj Heritage Science 2026 | Drill-chisel segmentation | [Paper](https://www.nature.com/articles/s40494-026-02600-w) |
+| Dual-branch Segmentation of Oracle Bone Drill Chisel and Its Impact on Group Classification | npj Heritage Science 2026 | Dual-branch drill-chisel segmentation and downstream group classification | [Paper](https://doi.org/10.1038/s40494-026-03006-4) |
 | Oracle bone inscription detection model with frequency-domain attention fusion and multi-scale optimization | npj Heritage Science 2026 | Frequency-domain attention fusion and scale-aware optimization for crack-distorted detection | [Paper](https://www.nature.com/articles/s40494-026-02751-w) |
 | OracleDet: Structure-guided and Spatial-frequency Aware Detection of Oracle Bone Inscriptions in Complex Heritage Scenes | npj Heritage Science 2026 | Structure-aware and spatial-frequency-aware detection | [Paper](https://www.nature.com/articles/s40494-026-02621-5), [Code](https://github.com/ZCDMW/OracleDet) |
 | SGD-Det: Structure-guided Oracle Character Detection in Degraded Rubbing Images | Multimedia Systems 2026 | Structure-guided detection in degraded rubbing images | [Paper](https://doi.org/10.1007/s00530-026-02466-9) |
@@ -225,6 +227,7 @@
 | OBI Designer: Zero-Shot Oracle Bone Inscription Artistic Characters Generation with Multimodal Style Transfer | npj Heritage Science 2026 | Artistic OBI character generation | [Paper](https://www.nature.com/articles/s40494-026-02417-7) |
 | Restoration of Oracle Bone Inscriptions Using a Fast Residual Shrinkage Denoising Network with Fractal Gradient | npj Heritage Science 2026 | Fast residual shrinkage denoising | [Paper](https://www.nature.com/articles/s40494-026-02361-6) |
 | MSR-Net: a Multi-scale Skeleton Restoration Network for Oracle Bone Inscription Rubbing Denoising | npj Heritage Science 2026 | Multi-scale skeleton restoration for OBI rubbing denoising | [Paper](https://www.nature.com/articles/s40494-026-02719-w) |
+| Denoising of Oracle Bone Rubbing Images via a Residual Network Based on Base-Residual Decomposition | npj Heritage Science 2026 | Base-residual decomposition and residual learning for rubbing-image denoising | [Paper](https://doi.org/10.1038/s40494-026-02970-1) |
 
 ## Broader Ancient Script and Character Evolution
 
