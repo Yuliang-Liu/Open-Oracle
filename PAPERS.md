@@ -1,6 +1,6 @@
 # Open-Oracle Paper Index
 
-> Last updated: 2026-07-28. This file is a task-oriented bibliography for AI-assisted oracle bone inscription (OBI) and oracle bone script (OBS) processing. Rows are ordered by first public year within each section when a year is available. PRs are welcome.
+> Last updated: 2026-10-13. This file is a task-oriented bibliography for AI-assisted oracle bone inscription (OBI) and oracle bone script (OBS) processing. Rows are ordered by first public year within each section when a year is available. Review coverage and pending candidates are recorded in the [weekly log](maintenance/weekly/2026-10-13.md). PRs are welcome.
 
 ## Contents
 
@@ -46,7 +46,7 @@
 | ROBC: A Radical-Level Oracle Bone Character Dataset | PRCV 2024 and 2025 | Radical-level dataset | [Paper](https://doi.org/10.1007/978-981-97-8511-7_8) |
 | A Graph-Based Evolutionary Dataset for Oracle Bone Characters from Inscriptions to Modern Chinese Scripts | npj Heritage Science 2025 | GEVOBC graph-based evolution dataset | [Paper](https://www.nature.com/articles/s40494-025-01951-0), [Code](https://github.com/BrisksHan/GBEDOBC) |
 | Mitigating Long-tail Distribution in Oracle Bone Inscriptions: Dataset, Model, and Benchmark | ACM MM 2025 | Oracle-P15K long-tail recognition benchmark | [Paper](https://dl.acm.org/doi/10.1145/3746027.3755067), [Code](https://github.com/OBI-Future/Oracle-P15K) |
-| Pictographic Decipherment OBS Dataset (PD-OBS) | arXiv 2025 | Radical and pictographic annotations for LVLM decipherment | [Paper](https://arxiv.org/abs/2508.10113), [Code](https://github.com/PKXX1943/PD-OBS) |
+| Pictographic Decipherment OBS Dataset (PD-OBS) | arXiv 2025 | Radical and pictographic annotations for LVLM decipherment | [Paper](https://arxiv.org/abs/2508.10113), [Repo (training code pending)](https://github.com/PKXX1943/PD-OBS) |
 | PictOBI-20k: Unveiling Large Multimodal Models in Visual Decipherment for Pictographic Oracle Bone Characters | arXiv 2025, ICASSP 2026 | 20k OBC-object image pairs and 15k+ multi-choice questions | [IEEE](https://ieeexplore.ieee.org/document/11462601), [arXiv](https://arxiv.org/abs/2509.05773), [Code](https://github.com/OBI-Future/PictOBI-20k) |
 | An Open Benchmark for Oracle Bone Rubbing Image Retrieval | npj Heritage Science 2025 | Homologous rubbing retrieval benchmark | [Paper](https://www.nature.com/articles/s40494-025-01859-9) |
 | Deep Rejoining Model and Dataset of Oracle Bone Fragment Images | npj Heritage Science 2025 | Fragment-image rejoining dataset | [Paper](https://www.nature.com/articles/s40494-025-01651-9) |
@@ -56,7 +56,7 @@
 | Structure–semantic dual-alignment benchmarking of large language model capability on ancient oracle bone inscriptions | npj Heritage Science 2026 | Structure and semantic alignment benchmark for LLMs on ancient OBI | [Paper](https://www.nature.com/articles/s40494-026-02770-7) |
 | Evidence-Grounded Oracle Bone Script Understanding: OBB Benchmark and OBS-PRTF Framework | LNCS 2026 | OBB benchmark and evidence-grounded OBS understanding framework | [Paper](https://doi.org/10.1007/978-981-92-3510-0_20) |
 | An Interpretable Parametric Representation and Open Dataset for Oracle Bone Script: Adaptive Arc Segmentation and SVG Resource | npj Heritage Science 2026 | Parametric OBS dataset, adaptive arc segmentation, and SVG resources | [Paper](https://doi.org/10.1038/s40494-026-02995-6), [Preprint](https://doi.org/10.21203/rs.3.rs-10028068/v1) |
-| Beyond Aggregate Metrics Diagnosing the Long-Tailed Failure of Oracle Bone Character Detection and Recognition | Research Square 2026 | Long-tail diagnostic benchmark and metric analysis for OBI detection and recognition | [Preprint](https://doi.org/10.21203/rs.3.rs-10039997/v1) |
+| Beyond aggregate metrics: diagnosing the long-tailed failure of oracle bone character detection and recognition | Discover Artificial Intelligence 2026 | Frequency-stratified evaluation and FAR-YOLO on existing OBIMD; implementation not publicly released | [Paper](https://link.springer.com/article/10.1007/s44163-026-02210-2), [Preprint](https://doi.org/10.21203/rs.3.rs-10039997/v1) |
 
 ## Decipherment and Interpretation
 
@@ -69,7 +69,7 @@
 | Puzzle Pieces Picker: Deciphering Ancient Chinese Characters with Radical Reconstruction | ICDAR 2024 Oral | Radical and stroke reconstruction | [arXiv](https://arxiv.org/abs/2406.03019), [Code](https://github.com/Pengjie-W/Puzzle-Pieces-Picker) |
 | A Text-Image Dual Conditional Stable Diffusion Model for Oracle Bone Inscription Decipherment | npj Heritage Science 2025 | Dual visual and semantic conditional diffusion | [Paper](https://www.nature.com/articles/s40494-025-02019-9) |
 | OracleFusion: Assisting the Decipherment of Oracle Bone Script with Structurally Constrained Semantic Typography | ICCV 2025 | Structurally constrained semantic typography for decipherment | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Li_OracleFusion_Assisting_the_Decipherment_of_Oracle_Bone_Script_with_Structurally_ICCV_2025_paper.html), [Code](https://github.com/lcs0215/OracleFusion) |
-| Interpretable Oracle Bone Script Decipherment through Radical and Pictographic Analysis with LVLMs | arXiv 2025 | Interpretable LVLM decipherment with PD-OBS | [arXiv](https://arxiv.org/abs/2508.10113), [Code](https://github.com/PKXX1943/PD-OBS) |
+| Interpretable Oracle Bone Script Decipherment through Radical and Pictographic Analysis with LVLMs | arXiv 2025 | Interpretable LVLM decipherment with PD-OBS | [arXiv](https://arxiv.org/abs/2508.10113), [Repo (training code pending)](https://github.com/PKXX1943/PD-OBS) |
 | AlphaOracle: Oracle Bone Script Decipherment via Human-Workflow-Inspired Deep Learning | The Innovation 2026 | Human-workflow-inspired decipherment framework | [Paper](https://www.sciencedirect.com/science/article/pii/S2666675826002092), [arXiv](https://arxiv.org/abs/2607.17849), [Code](https://github.com/Yuliang-Liu/AlphaOracle) |
 | FROD: Feature Matching Residual Denoising Oracle Bone Decipher | arXiv 2026; author reports ICONIP 2026 acceptance (official record pending) | Feature matching, residual denoising diffusion, and font refinement for oracle-to-modern character translation | [arXiv](https://arxiv.org/abs/2609.17227) |
 | Decoding Ancient Oracle Bone Script via Generative Dictionary Retrieval | arXiv 2026 | Generative dictionary retrieval | [arXiv](https://arxiv.org/abs/2604.09668) |
@@ -192,6 +192,7 @@
 | An Open Benchmark for Oracle Bone Rubbing Image Retrieval | npj Heritage Science 2025 | Rubbing-image retrieval benchmark | [Paper](https://www.nature.com/articles/s40494-025-01859-9) |
 | FSMHNet: A Frequency-Aware and Stroke-Enhanced Multiscale Hash Network for Oracle Image Retrieval | ICONIP 2026 | Hash-based oracle image retrieval | [Paper](https://link.springer.com/chapter/10.1007/978-981-95-4097-6_8) |
 | A Deep Learning Method for Image-based Retrieval of Oracle Bone Inscriptions Literature | npj Heritage Science 2026 | Literature retrieval from images | [Paper](https://www.nature.com/articles/s40494-026-02573-w) |
+| Relational graphic structure supports diachronic retrieval of wholly unseen ancient Chinese character identities | npj Heritage Science 2026 (advance online; final version pending) | Whole-identity retrieval across four script stages using structural descriptors; supports expert analysis, not automated decipherment | [Paper](https://www.nature.com/articles/s40494-026-03044-y), [Analysis supplement](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs40494-026-03044-y/MediaObjects/40494_2026_3044_MOESM2_ESM.zip) |
 
 ## Rejoining and Association
 
@@ -236,7 +237,7 @@
 | Study on the Evolution of Chinese Characters Based on Few-shot Learning: From Oracle Bone Inscriptions to Regular Script | PLOS ONE 2022 | Few-shot character evolution | [Paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272974) |
 | Multi-modal Ancient Scripts Recognition via Deep Learning with Data Homogenization and Augmentation | npj Heritage Science 2025 | Cross-modal data homogenization for ancient scripts | [Paper](https://www.nature.com/articles/s40494-025-02095-x) |
 | CoLa: Chinese Character Decomposition with Compositional Latent Components | arXiv 2025 | Compositional decomposition | [arXiv](https://arxiv.org/abs/2506.03798) |
-| UniCalli: A Unified Diffusion Framework for Column-Level Generation and Recognition of Chinese Calligraphy | arXiv 2025 | Chinese calligraphy generation and recognition | [arXiv](https://arxiv.org/abs/2510.13745) |
+| UniCalli: A Unified Diffusion Framework for Column-Level Generation and Recognition of Chinese Calligraphy | ICLR 2026 Poster | Unified column-level calligraphy generation and recognition with transfer to oracle bone inscriptions | [Conference](https://iclr.cc/virtual/2026/poster/10009779), [OpenReview](https://openreview.net/forum?id=OSIPdrw56X), [arXiv](https://arxiv.org/abs/2510.13745) |
 | Bridging Vision, Language, and Mathematics: Pictographic Character Reconstruction with Bézier Curves | arXiv 2025 | Geometric reconstruction with Bézier curves | [arXiv](https://arxiv.org/abs/2511.00076) |
 | Enhancing Multimodal Large Language Models for Ancient Chinese Character Evolution Analysis via Glyph-Driven Fine-Tuning | ACL 2026 Long Paper | Glyph-driven MLLM fine-tuning | [Paper](https://aclanthology.org/2026.acl-long.1043/), [arXiv](https://arxiv.org/abs/2604.11299) |
 | From Edges to Meaning: Semantic Line Sketches as a Cognitive Scaffold for Ancient Pictograph Invention | arXiv 2026 | Cognitive scaffold for pictograph invention | [arXiv](https://arxiv.org/abs/2604.12865) |

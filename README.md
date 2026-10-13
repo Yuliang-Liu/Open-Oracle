@@ -12,6 +12,7 @@ With the support of big data and AI, oracle bone script research has entered a n
 
 <p align="center">
   <b>Last maintained:</b> 2026-09-27<br>
+  <b>Latest review:</b> <a href="maintenance/weekly/2026-10-13.md">2026-10-13 (partial; pending evidence and quality checks)</a><br>
   <a href="PAPERS.md"><b>Comprehensive paper index</b></a>
 </p>
 
@@ -33,6 +34,8 @@ This section lists representative recent oracle bone inscription work from all g
 
 | Year | Project or Paper | Venue and Status | Category | Links |
 | :---: | :--- | :---: | :--- | :--- |
+| 2026 | **Relational graphic structure supports diachronic retrieval of wholly unseen ancient Chinese character identities** | npj Heritage Science 2026 (advance online; final version pending) | Cross-period retrieval of unseen identities | [Paper](https://www.nature.com/articles/s40494-026-03044-y) |
+| 2026 | **Beyond aggregate metrics: diagnosing the long-tailed failure of oracle bone character detection and recognition** | Discover Artificial Intelligence 2026 | Long-tail evaluation and FAR-YOLO | [Paper](https://link.springer.com/article/10.1007/s44163-026-02210-2), [Preprint](https://doi.org/10.21203/rs.3.rs-10039997/v1) |
 | 2026 | **AlphaOracle** | The Innovation | Decipherment and interpretation | [Paper](https://www.sciencedirect.com/science/article/pii/S2666675826002092), [arXiv](https://arxiv.org/abs/2607.17849), [Code](https://github.com/Yuliang-Liu/AlphaOracle) |
 | 2026 | **FROD: Feature Matching Residual Denoising Oracle Bone Decipher** | arXiv 2026; author reports ICONIP 2026 acceptance (official record pending) | Decipherment | [arXiv](https://arxiv.org/abs/2609.17227) |
 | 2026 | **ROOTS: Recognizing Oracle Bone Inscriptions via an Organized Tree Structure** | npj Heritage Science 2026 | Recognition | [Paper](https://doi.org/10.1038/s40494-026-02989-4), [Preprint](https://doi.org/10.21203/rs.3.rs-9733608/v1) |
@@ -69,7 +72,7 @@ This section lists representative recent oracle bone inscription work from all g
 | 2025 | **V-Oracle** | ACL 2025 | Progressive VQA-style reasoning | [Paper](https://aclanthology.org/2025.acl-long.986/) |
 | 2025 | **OBI-Bench: Can LMMs Aid in Study of Ancient Script on Oracle Bones?** | ICLR 2025 Spotlight | LMM benchmark | [OpenReview](https://openreview.net/forum?id=hL5jone2Oh), [arXiv](https://arxiv.org/abs/2412.01175), [Code](https://github.com/zijianchen98/OBI-Bench) |
 | 2025 | **OracleAgent** | arXiv 2025 | Multimodal research agent | [Paper](https://arxiv.org/abs/2510.26114), [Code](https://github.com/lcs0215/OralceAgent) |
-| 2025 | **Interpretable OBS Decipherment with LVLMs, PD-OBS** | arXiv 2025 | Interpretable decipherment | [Paper](https://arxiv.org/abs/2508.10113), [Code](https://github.com/PKXX1943/PD-OBS) |
+| 2025 | **Interpretable OBS Decipherment with LVLMs, PD-OBS** | arXiv 2025 | Interpretable decipherment | [Paper](https://arxiv.org/abs/2508.10113), [Repo (training code pending)](https://github.com/PKXX1943/PD-OBS) |
 | 2025 | **Oracle-P15K** | ACM MM 2025 | Long-tail recognition dataset and benchmark | [Paper](https://dl.acm.org/doi/10.1145/3746027.3755067), [Code](https://github.com/OBI-Future/Oracle-P15K) |
 | 2025 | **OBIFormer** | Displays 2025 | Denoising and restoration | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0141938225000964), [Code](https://github.com/OBI-Future/OBIFormer) |
 | 2025 | **A Graph-based Evolutionary Dataset for Oracle Bone Characters** | npj Heritage Science 2025 | Character evolution graph | [Paper](https://www.nature.com/articles/s40494-025-01951-0), [Code](https://github.com/BrisksHan/GBEDOBC) |
@@ -98,10 +101,10 @@ This section lists representative recent oracle bone inscription work from all g
 | **Structure–semantic Dual-Alignment Benchmark** | LLM evaluation | Structure and semantic alignment benchmarking for ancient OBI understanding | [Paper](https://www.nature.com/articles/s40494-026-02770-7) |
 | **OBB Benchmark** | Evidence-grounded OBS understanding | Benchmark and OBS-PRTF framework for evidence-grounded oracle bone script understanding | [Paper](https://doi.org/10.1007/978-981-92-3510-0_20) |
 | **Parametric OBS SVG Resource** | Parametric representation | Dataset, adaptive arc segmentation, and SVG resources for oracle bone script | [Paper](https://doi.org/10.1038/s40494-026-02995-6), [Preprint](https://doi.org/10.21203/rs.3.rs-10028068/v1) |
-| **Long-tail OBI Detection and Recognition Diagnostics** | Detection + recognition evaluation | Diagnostic benchmark and metric analysis for long-tailed oracle bone character detection and recognition | [Preprint](https://doi.org/10.21203/rs.3.rs-10039997/v1) |
+| **Long-tail OBI Detection and Recognition Diagnostics** | Detection + recognition evaluation | Frequency-stratified evaluation and FAR-YOLO on existing OBIMD; published in Discover Artificial Intelligence 2026; implementation not publicly released | [Paper](https://link.springer.com/article/10.1007/s44163-026-02210-2), [Preprint](https://doi.org/10.21203/rs.3.rs-10039997/v1) |
 | **Oracle-MNIST** | Benchmark classification | 30,222 grayscale oracle-character images in 10 categories | [Paper](https://www.nature.com/articles/s41597-024-02933-w), [Code](https://github.com/wm-bupt/oracle-mnist) |
 | **Oracle-P15K** | Long-tail recognition | Long-tail OBI benchmark with synthesis-based augmentation | [Paper](https://dl.acm.org/doi/10.1145/3746027.3755067), [Code](https://github.com/OBI-Future/Oracle-P15K) |
-| **PD-OBS** | Interpretable decipherment | Radical and pictographic annotations for LVLM training | [Paper](https://arxiv.org/abs/2508.10113), [Code](https://github.com/PKXX1943/PD-OBS) |
+| **PD-OBS** | Interpretable decipherment | Radical and pictographic annotations for LVLM training | [Paper](https://arxiv.org/abs/2508.10113), [Repo (training code pending)](https://github.com/PKXX1943/PD-OBS) |
 | **GEVOBC and GBEDOBC** | Evolution graph dataset | Graph-based evolutionary oracle bone character dataset | [Paper](https://www.nature.com/articles/s40494-025-01951-0), [Code](https://github.com/BrisksHan/GBEDOBC) |
 | **OBI Rubbing Retrieval Benchmark** | Rubbing retrieval | Homologous rubbing retrieval benchmark | [Paper](https://www.nature.com/articles/s40494-025-01859-9) |
 | **OBFI and OBID-ACR** | Fragment rejoining and bone association | Fragment-image and bone-level association benchmarks | [OBFI](https://www.nature.com/articles/s40494-025-01651-9), [OBID-ACR](https://www.nature.com/articles/s40494-025-02282-w) |
