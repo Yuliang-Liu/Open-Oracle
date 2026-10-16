@@ -12,7 +12,7 @@ With the support of big data and AI, oracle bone script research has entered a n
 
 <p align="center">
   <b>Last maintained:</b> 2026-09-27<br>
-  <b>Latest review:</b> <a href="maintenance/weekly/2026-10-13.md">2026-10-13 (partial; pending evidence and quality checks)</a><br>
+  <b>Latest review:</b> <a href="maintenance/weekly/2026-10-16.md">2026-10-16 (partial; pending candidate quality checks)</a><br>
   <a href="PAPERS.md"><b>Comprehensive paper index</b></a>
 </p>
 
@@ -34,12 +34,14 @@ This section lists representative recent oracle bone inscription work from all g
 
 | Year | Project or Paper | Venue and Status | Category | Links |
 | :---: | :--- | :---: | :--- | :--- |
+| 2026 | **JieZi: A Large-Scale Expert-Audited Dataset and Benchmark for Ancient Chinese Character Exegesis** | ACM MM 2026 Dataset Track Oral (accepted; proceedings pending) | Multi-script exegesis dataset and benchmark including OBI | [Program](https://2026.acmmm.org/site/technical-programme.html), [arXiv](https://arxiv.org/abs/2608.11741), [Eval code](https://github.com/Ran00w/JieZi), [Data (CC BY-NC-ND)](https://huggingface.co/datasets/Ran0/JieZi) |
+| 2026 | **A fine-grained bidirectional multi-scale network for extreme-aspect-ratio bamboo slip character detection** | Discover Artificial Intelligence 2026 | FBMS-YOLO; bamboo-slip detection with OBI validation-set evaluation | [Paper](https://link.springer.com/article/10.1007/s44163-026-01976-9) |
 | 2026 | **Relational graphic structure supports diachronic retrieval of wholly unseen ancient Chinese character identities** | npj Heritage Science 2026 (advance online; final version pending) | Cross-period retrieval of unseen identities | [Paper](https://www.nature.com/articles/s40494-026-03044-y) |
 | 2026 | **Beyond aggregate metrics: diagnosing the long-tailed failure of oracle bone character detection and recognition** | Discover Artificial Intelligence 2026 | Long-tail evaluation and FAR-YOLO | [Paper](https://link.springer.com/article/10.1007/s44163-026-02210-2), [Preprint](https://doi.org/10.21203/rs.3.rs-10039997/v1) |
 | 2026 | **AlphaOracle** | The Innovation | Decipherment and interpretation | [Paper](https://www.sciencedirect.com/science/article/pii/S2666675826002092), [arXiv](https://arxiv.org/abs/2607.17849), [Code](https://github.com/Yuliang-Liu/AlphaOracle) |
-| 2026 | **FROD: Feature Matching Residual Denoising Oracle Bone Decipher** | arXiv 2026; author reports ICONIP 2026 acceptance (official record pending) | Decipherment | [arXiv](https://arxiv.org/abs/2609.17227) |
+| 2026 | **FROD: Feature Matching Residual Denoising Oracle Bone Decipher** | ICONIP 2026 (accepted; proceedings pending) | Decipherment | [Program](https://iconip2026.org/program-detail?day=wed&lens=paper:P180&open=2N), [arXiv](https://arxiv.org/abs/2609.17227) |
 | 2026 | **ROOTS: Recognizing Oracle Bone Inscriptions via an Organized Tree Structure** | npj Heritage Science 2026 | Recognition | [Paper](https://doi.org/10.1038/s40494-026-02989-4), [Preprint](https://doi.org/10.21203/rs.3.rs-9733608/v1) |
-| 2026 | **Can Neural Networks Learn Visual Correspondence Between Pictographic Oracle Bone Scripts and Object Images?** | Expert Systems with Applications (online 2026; issue 2027) | Visual correspondence and pictographic recognition | [Paper](https://doi.org/10.1016/j.eswa.2026.134178) |
+| 2026 | **Can Neural Networks Learn Visual Correspondence Between Pictographic Oracle Bone Scripts and Object Images?** | Expert Systems with Applications (online 2026; issue 2027) | Visual correspondence and pictographic recognition | [Paper](https://doi.org/10.1016/j.eswa.2026.134178), [Preprint (earlier title)](https://doi.org/10.2139/ssrn.6271072) |
 | 2026 | **Dual-branch segmentation of oracle bone drill chisel and its impact on group classification** | npj Heritage Science 2026 | Detection and segmentation | [Paper](https://doi.org/10.1038/s40494-026-03006-4) |
 | 2026 | **Denoising of oracle bone rubbing images via a residual network based on base-residual decomposition** | npj Heritage Science 2026 | Restoration | [Paper](https://doi.org/10.1038/s40494-026-02970-1) |
 | 2026 | **Construction of multimodal oracle bone semantic reasoning and knowledge graphs in archaeology under artificial intelligence technology** | Scientific Reports 2026 | Multimodal reasoning and knowledge graph | [Paper](https://doi.org/10.1038/s41598-026-71440-2) |
@@ -91,6 +93,7 @@ This section lists representative recent oracle bone inscription work from all g
 
 | Dataset or Benchmark | Task | Scale and Notes | Links |
 | :--- | :--- | :--- | :--- |
+| **JieZi** | Multi-script character exegesis including OBI | 500K+ VQA pairs; expert-audited benchmark; public evaluation implementation | [arXiv](https://arxiv.org/abs/2608.11741), [Eval code](https://github.com/Ran00w/JieZi), [Data (CC BY-NC-ND)](https://huggingface.co/datasets/Ran0/JieZi) |
 | **HUST-OBC** | Recognition + decipherment | 140,053 images; deciphered and undeciphered character categories | [Paper](https://www.nature.com/articles/s41597-024-03807-x), [Code](https://github.com/Pengjie-W/HUST-OBC), [Data](https://figshare.com/s/8a9c0420312d94fc01e3) |
 | **EVOBC** | Character evolution | Multi-period evolution data across OBC, BI, SS, SAC, WSC, CS | [Paper](https://arxiv.org/abs/2401.12467), [Code](https://github.com/RomanticGodVAN/character-Evolution-Dataset), [Data](https://figshare.com/s/ce2cf55b35a2f8ecc4c6) |
 | **OBIMD** | Contextual interpretation | 10,077 OBI images; 93,652 annotated characters; sentence-level readings | [Paper](https://www.nature.com/articles/s41597-026-06967-0), [Code](https://github.com/libang1991/OBIMD), [HF](https://huggingface.co/datasets/KLOBIP/OBIMD) |
