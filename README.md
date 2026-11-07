@@ -11,8 +11,7 @@ With the support of big data and AI, oracle bone script research has entered a n
 <h5 align="center">Please give us a star ⭐ for the latest updates.</h5>
 
 <p align="center">
-  <b>Last maintained:</b> 2026-09-27<br>
-  <b>Latest review:</b> <a href="maintenance/weekly/2026-10-30.md">2026-10-30 (partial; pending candidate evidence and quality checks)</a><br>
+  <b>Last updated:</b> <a href="maintenance/weekly/2026-10-30.md">2026-10-30</a><br>
   <a href="PAPERS.md"><b>Comprehensive paper index</b></a>
 </p>
 

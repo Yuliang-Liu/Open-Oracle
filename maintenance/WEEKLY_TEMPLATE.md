@@ -52,5 +52,5 @@
 - 多处条目和 BibTeX 同步情况：
 - 新增/修改外链与本地链接检查结果：
 - `git diff --check` 与逐文件 diff 结果：
-- README `Last maintained` 是否更新及依据：
+- README `Last updated` 日期、对应周记录及更新依据（与检索覆盖和候选待定状态分别记录）：
 - 提交 / PR（实际发生后填写）：
