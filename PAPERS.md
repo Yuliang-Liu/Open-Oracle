@@ -1,6 +1,6 @@
 # Open-Oracle Paper Index
 
-> Last updated: 2026-10-30. This file is a task-oriented bibliography for AI-assisted oracle bone inscription (OBI) and oracle bone script (OBS) processing. Rows are ordered by first public year within each section when a year is available. Review coverage and pending candidates are recorded in the [weekly log](maintenance/weekly/2026-10-30.md). PRs are welcome.
+> Last updated: 2026-11-07. This file is a task-oriented bibliography for AI-assisted oracle bone inscription (OBI) and oracle bone script (OBS) processing. Rows are ordered by first public year within each section when a year is available. Review coverage and pending candidates are recorded in the [weekly log](maintenance/weekly/2026-11-07.md). PRs are welcome.
 
 ## Contents
 
